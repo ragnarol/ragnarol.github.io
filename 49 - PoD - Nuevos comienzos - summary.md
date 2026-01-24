@@ -3,67 +3,68 @@ layout: default
 title: 49   PoD   Nuevos Comienzos   Summary
 ---
 
-Aquí tienes el resumen de la sesión de juego basado en la transcripción proporcionada.
+Aquí tienes el resumen de la sesión basado en la transcripción proporcionada.
 
-# Título de la Sesión: Escamas, Barbetas y Burocracia en Marduk
+# Negocios, Barbetas y Pescado en Marduk
 
-**PJs presentes:**
-*   Paloma (Capitana Lyra Bounce)
-*   Yankee Fu (El Chino)
-*   Nemo
-*   Jimmy
-*   Fénix Corbin
+**PJs presentes:** Yankee Fu, Paloma (Lyra), Jimmy, Nemo, Phoenix Corbin.
+**PNJs presentes:** Karin, Finan, Clayton, Johnny Belem, Rica Holloway, Paramédicos, Vendedor de pescado.
 
-**PNJs presentes:**
-*   Karim
-*   Rica Holloway
-*   Johnny Belen
-*   Finan (El perro)
-*   Clayton (Piloto, mencionado)
+**Desarrollos importantes en la vida de los PJs o la campaña:**
+*   Se ha asegurado un cargamento vital para la reconstrucción de Drinax: dos barbetas de partículas imperiales.
+*   Se ha establecido una tapadera comercial comprando pescado local para justificar la carga en la nave.
+*   Karin ha sido reclutada como tripulante (Comunicaciones/Sensores) para el *Ginger*.
+*   El grupo rechaza un encargo inmediato de transporte de GD Corp para priorizar el regreso a Drinax, aunque mantienen abierta la puerta para futuros trabajos de inteligencia.
 
-**Principales desarrollos en la vida de los PJs o en la campaña para reconstruir el Reino de Drinax:**
-*   La tripulación ha conseguido asegurar el cargamento especial para el Rey Oleb: dos barbetas de partículas de tecnología imperial.
-*   Se ha reclutado a Karim como nueva integrante de la tripulación del *Ginger*, quien espera encontrar pistas sobre su hermano secuestrado.
-*   Los PJs han priorizado la misión de Drinax sobre el contrato de transporte inmediato de *GD Corp*, aunque mantienen abierta la posibilidad de realizar espionaje en Oghma en el futuro.
-*   Se ha realizado una inversión comercial comprando 40 toneladas de pescado para rentabilizar el viaje de vuelta y camuflar el armamento.
-
-**Cabos sueltos o situaciones pendientes:**
-*   La situación legal del *Sarcomond*: han llegado avisos de impago de la hipoteca a nombre del anterior capitán, Daniel Blau.
-*   Jimmy teme ser interceptado en el sistema *Torpol* debido a incidentes previos; Nemo se ha ofrecido a ayudarle legalmente.
-*   El paradero de Lamor Lukowiak, hermano de Karim, presuntamente secuestrado por los inatancantes de Oghma.
-*   La posible reacción de las autoridades de Marduk al salir del planeta con mercancía de contrabando sin pasar los controles aduaneros habituales.
+**Cabos sueltos / Pendientes:**
+*   **Hipoteca del Sarcomond:** La nave de Jimmy ha recibido avisos de impago y reclaman al antiguo capitán, Daniel Blau.
+*   **Desaparecidos de GD Corp:** El ingeniero jefe Klaug Bougie y el hermano de Karin, Lamor Lukowiak, siguen desaparecidos (presumiblemente secuestrados por los incursores de Oghma).
+*   **La oferta del Rey Oleb:** Se menciona un "gran negocio" y un trato que el Rey Oleb XVI tiene preparado para los PJs en Drinax, que incluye la propiedad total de la nave *Ginger*.
+*   **Paso por Torpol:** Jimmy teme ser detenido en el sistema Torpol por incidentes pasados; Nemo le ayudará a falsificar documentos o usar la diplomacia.
 
 ---
 
-### Escena 1: Triaje en el Downport
-**PJs presentes:** Yankee Fu, Paloma, Nemo.
-**PNJs presentes:** Karim (Superviviente del accidente, técnica de comunicaciones, arquetipo de "La víctima con recursos"), Finan (Mascota herida).
-**Lugar:** El Downport de Marduk (Hospital e instalaciones portuarias).
+### Escena 1: Triaje y Malas Noticias
+**PJs presentes:** Yankee Fu, Paloma (Lyra).
+**PNJs presentes:** Karin (Hermana preocupada, posible recluta; experta en electrónica/comunicaciones), Paramédicos de GD Corp, Piloto de la lanzadera.
+**Lugar:** Downport (Planeta Marduk).
+**Naves:** Downpour of Marduk (Lanzadera), Ginger (Far Trader, Capitana Lyra/Paloma).
 
-**Resumen de la escena:**
-Tras ser rescatados por una lanzadera, el grupo aterriza en el Downport de Marduk, una isla artificial llena de edificios de cemento. Los heridos, Yankee Fu y el perro Finan, son llevados a cuidados intensivos, mientras que Paloma recibe el alta tras una noche en observación. Durante el traslado, Karim descubre que su hermano, un mecánico del Highport, ha sido probablemente secuestrado por los asaltantes de Oghma. Paloma consuela a Karim y empieza a sembrar la semilla para reclutarla, ofreciéndole la ayuda de su tripulación para buscar a su hermano. Mientras tanto, Yankee pierde casi todo su equipo, quedándose solo con un manual de supervivencia, y Nemo sufre terribles dolores dentales que le obligan a medicarse fuertemente con Tramadol.
+**Resumen:**
+Tras el accidente/ataque de la lanzadera, los supervivientes son trasladados al hospital del Downport de Marduk. Yankee Fu y el perro de la tripulación reciben tratamiento por heridas graves (mordeduras), mientras que Paloma y Karin son tratadas por contusiones menores. Durante el traslado, Karin revisa su móvil y descubre que su hermano, Lamor Lukowiak, empleado del Highport, figura entre los secuestrados por los incursores de Oghma. Paloma intenta buscar información en la red local sobre los desaparecidos, pero confirma que las posibilidades de recuperarlos sin pagar rescate o ir a buscarlos son nulas.
 
 ### Escena 2: La Oferta Corporativa
-**PJs presentes:** Paloma, Yankee Fu, Nemo.
-**PNJs presentes:** Rica Holloway (Ejecutiva de *General Development Company - GD Corp*, arquetipo de "La Corporativa Pragmática").
-**Lugar:** Habitación del hospital en el Downport de Marduk.
+**PJs presentes:** Paloma (Lyra), Yankee Fu.
+**PNJs presentes:** Rica Holloway (Ejecutiva de General Development Company - GD Corp; Arquetipo: Corporativa pragmática), Karin.
+**Lugar:** Habitación del Hospital, Downport (Planeta Marduk).
 
-**Resumen de la escena:**
-Rica Holloway visita a los supervivientes para disculparse por el incidente del ataque al espaciopuerto. Explica que los asaltantes robaron tecnología robótica y secuestraron a personal clave, incluido su ingeniero jefe. Holloway ofrece a la tripulación un trabajo para compensar las molestias: transportar a su asistente, Elena Markoib, al espaciopuerto de *GD Corp* en Oghma por 20.000 créditos (el doble de lo habitual). Además, ofrece contratos de inteligencia: 100.000 créditos por información orbital de Oghma y hasta medio millón si bajan a la superficie. Paloma se muestra interesada, pero no se compromete de inmediato.
+**Resumen:**
+Rica Holloway visita a los heridos para disculparse por el incidente en nombre de GD Corp. Explica que los atacantes robaron robótica, electrónica y secuestraron personal clave, incluido su ingeniero jefe. Al no tener naves con capacidad de salto disponibles, ofrece a los PJs un contrato: 20.000 créditos por transportar a su asistente, Elena Markoib, al puerto de GD Corp en Oghma. Además, ofrece un contrato de inteligencia: 100.000 créditos por información orbital sobre Oghma y hasta 500.000 créditos por información obtenida en la superficie. Paloma se muestra interesada pero no se compromete de inmediato.
 
-### Escena 3: El Encargo del Rey
-**PJs presentes:** Jimmy, Fénix Corbin.
-**PNJs presentes:** Johnny Belen (Contacto criminal, arquetipo de "El Contrabandista de Bajos Fondos").
-**Lugar:** Un bar lúgubre en el Downport y una granja en el continente.
+### Escena 3: El Alijo de Johnny Belem
+**PJs presentes:** Jimmy, Phoenix Corbin.
+**PNJs presentes:** Johnny Belem (Contacto criminal/Traficante; Arquetipo: Contrabandista de poca monta pero eficaz).
+**Lugar:** Bar en el sótano y una Granja en el continente (Planeta Marduk).
+**Naves:** Sarcomond (Modelo desconocido, Capitán Jimmy/Daniel Blau).
 
-**Resumen de la escena:**
-Jimmy y Fénix se reúnen con Johnny Belen, el contacto, quien les lleva a una granja aislada para mostrarles la mercancía destinada a Drinax. Se trata de dos cajas enormes con sello imperial que "se cayeron de un camión": contienen dos barbetas de partículas nuevas y radioactivas. Johnny advierte de la dificultad de sacarlas del planeta debido a los controles. Jimmy compra munición y chalecos antibalas antes de regresar para planear la extracción.
+**Resumen:**
+Jimmy y Phoenix se reúnen con Johnny Belem, un antiguo contacto. Belem les lleva a una granja aislada donde esconde la mercancía destinada a Drinax: dos cajas de 5 toneladas cada una que contienen **Barbetas de Partículas** con sello imperial, "caídas de un camión" (robadas de una nave de abastecimiento). Jimmy compra munición y un chaleco antibalas (*Flak Jacket*) para Phoenix. Belem advierte que sacar esa mercancía militar del planeta será complicado y sugiere usar el caos post-ataque a su favor.
 
-### Escena 4: Pescado y Fugas
-**PJs presentes:** Todos (Yankee Fu, Paloma, Nemo, Jimmy, Fénix).
-**PNJs presentes:** Karim.
-**Lugar:** Un restaurante en el Downport y comunicaciones con *GD Corp*.
+### Escena 4: Cena y Planificación
+**PJs presentes:** Todos (Yankee Fu, Paloma, Jimmy, Nemo, Phoenix Corbin).
+**PNJs presentes:** Johnny Belem (brevemente), Karin (al final), Finan.
+**Lugar:** Restaurante/Bar cerca del Espaciopuerto (Planeta Marduk).
 
-**Resumen de la escena:**
-El grupo se reúne para cenar, con Nemo visiblemente drogado por la medicación y Yankee recuperándose. Jimmy revela la naturaleza de la carga (las barbetas). Tras debatir si aceptar la oferta de transporte de *GD Corp*, deciden rechazar llevar a la pasajera para no perder tiempo, pero Paloma contacta con Rica Holloway para mantener abierta la oferta de espionaje en el futuro.
-Para camuflar las barbetas y sacar algo de dinero, deciden comprar 40 toneladas de pescado barato local. Planean aterrizar el *Ginger* rápidamente, cargar las armas y el pescado, y salir huyendo, esperando que el caos del ataque reciente y una posible multa sean las únicas consecuencias. Karim acepta unirse a la tripulación. Finalmente, Nemo decide viajar en el *Sarcomond* con Jimmy para ayudarle con sus habilidades legales/diplomáticas a cruzar el bloqueo que temen encontrar en *Torpol*.
+**Resumen:**
+El grupo se reúne para cenar tras recibir el alta médica (Yankee y Paloma siguen convalecientes pero estables). Jimmy informa sobre las barbetas de partículas y la urgencia de llevarlas a Drinax para cumplir con el Rey Oleb. Se debate si aceptar el trabajo de GD Corp. Finalmente, deciden rechazar el transporte de la pasajera a Oghma para no perder tiempo, pero aceptan verbalmente el contrato de inteligencia para el futuro.
+Planean aterrizar el *Ginger* cerca de la granja (ilegalmente) para cargar las barbetas. Para encubrir la operación ante las autoridades y justificar la carga, Paloma gestiona la compra de 40 toneladas de pescado local a bajo coste como mercancía comercial legítima.
+
+### Escena 5: Reclutamiento y Partida
+**PJs presentes:** Paloma, Jimmy, Nemo.
+**PNJs presentes:** Karin.
+**Lugar:** Exterior del Restaurante/Calles del Downport (Planeta Marduk).
+**Naves:** Ginger (Far Trader), Sarcomond.
+
+**Resumen:**
+Paloma comunica a Rica Holloway que no pueden llevar a su asistente debido a una urgencia comercial en otra dirección, pero mantienen el interés en la misión de espionaje. Paloma convence a Karin para unirse a la tripulación del *Ginger*, prometiéndole que el trabajo en Drinax les dará los medios para eventualmente buscar a su hermano.
+Para el viaje de vuelta, se decide que el *Ginger* cargará las armas y el pescado, mientras que el *Sarcomond* viajará en paralelo. Nemo se ofrece a viajar en el *Sarcomond* con Jimmy para ayudarle a sortear los problemas legales y de bloqueo que esperan en el sistema Torpol, usando sus habilidades diplomáticas y de falsificación.

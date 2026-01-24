@@ -3,77 +3,66 @@ layout: default
 title: 57   PoD   En El Agujero   Summary
 ---
 
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada.
+Aquí tienes el resumen de la sesión siguiendo el formato solicitado:
 
-# Infiltración en la Fortaleza Infernal
+# Infiltración en la Fortaleza Planetaria
 
 **PJs presentes**
-*   **Yankee** (Jugado por Nacho)
-*   **Emilio** (Jugado por Pika)
-*   **Corven / Fénix / Nemo** (Jugado por Nemo)
-*   **Dora** (Jugada por Paloma)
+*   Yankee (Nacho)
+*   Corven / Nemo (Juan)
+*   Pika (Emilio)
+*   Dora (Paloma)
 
 **PNJs presentes**
-*   **Tirador** (Soldado del séquito, competente con armas).
-*   **Vespexers / Reclutas 1 y 2** (Hermanos jóvenes, cargadores y apoyo, entusiastas del saqueo).
-*   **El Conductor** (Se queda en el vehículo de superficie).
-*   **Droide de Seguridad** (Robot con apariencia de mesa de madera noble negra, armado).
+*   Explorador (Guía nativo Vespexer)
+*   Tirador (Soldado Vespexer)
+*   Conductor (Vespexer, se queda en el vehículo)
+*   Alex y Tropex (Reclutas Vespexers jóvenes)
+*   Tío 1 y Tío 2 (Reclutas Vespexers)
 
-**Desarrollos importantes en la vida de los PJs o la campaña**
-*   El grupo ha confirmado que la **Fortaleza Infernal** (antigua base de defensa planetaria) está parcialmente operativa pero muy dañada en los niveles superiores.
-*   Han descubierto que la instalación sigue enviando señales de "estado normal" encriptadas (posiblemente códigos Aslan) a la flota en órbita, utilizando la nave exploradora aparcada en la superficie como repetidor.
+**Desarrollos importantes**
+*   El grupo inicia la exploración de las antiguas instalaciones de defensa planetaria en la superficie de Drinax con el objetivo de sabotear el arma o utilizarla para proteger el Palacio Flotante.
+*   Descubrimiento de que los niveles inferiores de la instalación siguen activos, con energía y sistemas de seguridad operativos (droides y sensores), y que envían señales de "estado normal" a las naves en órbita.
 
 **Cabos sueltos**
-*   Los niveles inferiores (donde se encuentran el arma principal, el soporte vital y el puente de mando) siguen sin ser explorados ni asegurados debido a la alta seguridad y daños estructurales.
-*   Yankee ha sufrido heridas importantes por electrocución y radiación, requiriendo tiempo de recuperación.
-*   El origen exacto y el receptor final de las comunicaciones encriptadas Aslan siguen siendo una incógnita estratégica, aunque el mensaje actual es rutinario.
+*   Yankee ha sufrido heridas graves por electrocución y radiación, requiriendo atención médica en el vehículo.
+*   No han logrado acceder al puente de mando ni al control del arma principal todavía.
+*   Han recuperado restos de un droide de seguridad antiguo que los Vespexers quieren aprovechar como chatarra.
 
 ---
 
-### Escena 1: Reconocimiento y Reliquias
-**PJs presentes:** Yankee, Emilio, Corven, Dora.
-**PNJs presentes:** Ninguno mencionado activamente en la exploración inicial.
-**Lugar:** Drinax, superficie y Nivel -1 (Comunicaciones) de la Fortaleza Infernal.
+## Exploración del Nivel de Comunicaciones
+**PJs presentes:** Yankee, Corven, Pika, Dora
+**PNJs presentes:** Explorador, Tío 1, Tío 2, Tirador (Vespexers - Supervivientes del yermo)
+**Lugar:** Antigua Base de Defensa Planetaria (Planeta Drinax)
+**Naves:** Ninguna
 
-**Resumen de la escena:**
-El grupo planifica la incursión en la antigua base de defensa. El objetivo es sabotear o controlar el arma planetaria para proteger el Palacio Flotante. Se dividen para explorar. Encuentran que el Nivel -1 (Comunicaciones) está arrasado y saqueado. Durante la búsqueda, encuentran una reliquia: un **Revólver de Oficial Sindalita** con dos cañones y munición especializada (roja perforante y azul para gravedad cero).
+**Resumen de la escena**
+El grupo aparca su vehículo terrestre cerca de las defensas y accede al interior de la instalación forzando una entrada no vigilada. Se dividen en equipos para explorar el primer nivel subterráneo (comunicaciones). Descubren que la zona está en ruinas, saqueada y sin energía. Durante el registro, Corven encuentra una reliquia: un revólver de oficial sindalita de doble cañón en perfecto estado. Dora y Yankee se exponen accidentalmente a una zona con alta radiación y sufren envenenamiento, teniendo que retirarse temporalmente para tratarse.
 
-### Escena 2: Peligros Ambientales
-**PJs presentes:** Yankee, Emilio, Corven, Dora.
-**PNJs presentes:** Tirador (Apoyo táctico), Reclutas Vespexer (Cargadores).
-**Lugar:** Nivel -1 y accesos a través de los cráteres.
+## Derrumbes y Conexiones Peligrosas
+**PJs presentes:** Pika, Corven, Yankee, Dora
+**PNJs presentes:** Tirador, Explorador (Vespexer - Guía)
+**Lugar:** Cráteres de acceso y Nivel 1 (Planeta Drinax)
+**Naves:** Ninguna
 
-**Resumen de la escena:**
-La exploración se complica. Yankee y Dora, buscando accesos por zonas dañadas cerca de un cráter, sufren envenenamiento por radiación al investigar una terminal activa en una zona contaminada. Por otro lado, Emilio (Pika) queda atrapado bajo un derrumbe de escombros y tiene que ser rescatado, sufriendo heridas. Corven detecta una colonia de **hormigas rojas de Drinax** (insectos venenosos) y logra evitar el peligro. El grupo se reúne para curar las heridas y tratar la radiación.
+**Resumen de la escena**
+Al día siguiente, intentan entrar por una zona de cráteres. La estructura es inestable; Pika y el Tirador quedan atrapados bajo un derrumbe de escombros, sufriendo daños, pero son rescatados por el grupo. Corven detecta un nido de hormigas rojas de Drinax (insectos muy venenosos) y logran evitarlo. Deciden intentar hackear el sistema desde el Nivel 1. Pika realiza un empalme de cables arriesgado en una zona radiactiva para dar energía a una consola, sufriendo más radiación. Yankee intenta hackear el sistema con ayuda de Pika, obteniendo acceso limitado: confirman que hay sensores activos y comunicaciones encriptadas saliendo de la base.
 
-### Escena 3: El Puesto de Hackeo
-**PJs presentes:** Yankee, Emilio, Corven, Dora.
-**PNJs presentes:** Tirador y Reclutas.
-**Lugar:** Una zona segura en el Nivel -1.
+## Encuentro con la Seguridad Automatizada
+**PJs presentes:** Corven
+**PNJs presentes:** Alex, Tropex (Vespexers - Reclutas jóvenes)
+**Lugar:** Nivel 3 - Barracones (Planeta Drinax)
+**Naves:** Ninguna
 
-**Resumen de la escena:**
-Para intentar acceder a los sistemas, Emilio y Yankee realizan un empalme físico arriesgado desde una zona radiactiva hasta una zona segura. Yankee se expone nuevamente a la radiación para conectar los cables. Emilio utiliza su ordenador y software de intrusión para intentar hackear el sistema de sensores y comunicaciones. Descubren que, aunque no tienen control total, pueden monitorear el "latido" de la instalación.
+**Resumen de la escena**
+Corven desciende al tercer nivel (Barracones) con dos reclutas. Esta zona está en mejor estado. De repente, son sorprendidos por un droide de seguridad antiguo que se camufla como una mesa noble pero posee un cañón de energía. Se inicia un combate: el droide dispara, errando el tiro, y Corven responde con fuego automático de su rifle de asalto, destruyendo al robot. Los reclutas recogen los restos del droide como botín de guerra.
 
-### Escena 4: La Mesa Centinela
-**PJs presentes:** Corven.
-**PNJs presentes:** Tirador (Soldado alerta), Reclutas Vespexer (Saqueadores en potencia), Droide de Seguridad (Arquetipo: Guardián automatizado, apariencia de mesa camilla de lujo con láser).
-**Lugar:** Nivel -3 (Barracas).
+## El Accidente de Yankee y la Retirada
+**PJs presentes:** Yankee, Pika, Corven
+**PNJs presentes:** Ninguno directo en la acción de Yankee
+**Lugar:** Acceso a niveles profundos y Vehículo (Planeta Drinax)
+**Naves:** Ninguna
 
-**Resumen de la escena:**
-Mientras Emilio trabaja en las comunicaciones, el grupo de asalto baja al Nivel -2 (Almacén, muy dañado) y luego al Nivel -3 (Barracas). Allí, Corven se topa con un **Droide de Seguridad** activo camuflado como una mesa de madera noble. Se desata un combate; el droide dispara un láser potente, pero Corven y su equipo logran destruirlo con fuego automático. Los reclutas Vespexer desguazan el robot para llevárselo como chatarra valiosa.
-
-### Escena 5: El Ninja Electrocutado
-**PJs presentes:** Yankee.
-**PNJs presentes:** Ninguno.
-**Lugar:** Accesos a niveles inferiores.
-
-**Resumen de la escena:**
-Yankee, utilizando su capa de invisibilidad, intenta descender en solitario ("modo ninja") para evitar los sensores activos detectados en los niveles inferiores. Al intentar forzar una puerta de acceso hacia el puente de mando, sufre una grave descarga eléctrica debido al mal estado de los sistemas. Malherido y sin encontrar una ruta segura a través de los derrumbes, decide abortar la infiltración en solitario.
-
-### Escena 6: Retirada y Desencriptación
-**PJs presentes:** Todos.
-**PNJs presentes:** Conductor (Chófer paciente).
-**Lugar:** Vehículo de superficie.
-
-**Resumen de la escena:**
-Viendo el estado del equipo (radiados, heridos y electrocutados), deciden retirarse al vehículo para descansar y utilizar la enfermería de a bordo. Emilio pasa varios días intentando desencriptar las comunicaciones interceptadas. Finalmente, logra romper el cifrado: son mensajes automáticos de "estado normal" enviados periódicamente a la flota, usando códigos Aslan. El grupo concluye la sesión recuperándose y evaluando sus opciones.
+**Resumen de la escena**
+Mientras Pika se queda desencriptando las comunicaciones (descubriendo tras muchas horas que son mensajes periódicos de "sin novedad"), Yankee utiliza su capa de invisibilidad para intentar infiltrarse sigilosamente hacia los niveles inferiores activos. Al intentar forzar una puerta cerrada, recibe una descarga eléctrica masiva que lo deja gravemente herido. Malherido y habiendo confirmado que el acceso directo es peligroso, Yankee regresa con el grupo. Corven le practica primeros auxilios y deciden abortar la misión temporalmente, regresando al vehículo para que Yankee se recupere en la enfermería de a bordo.

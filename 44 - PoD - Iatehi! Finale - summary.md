@@ -3,62 +3,65 @@ layout: default
 title: 44   PoD   Iatehi! Finale   Summary
 ---
 
-Aquí tienes el resumen de la sesión transcrita, siguiendo el formato y las instrucciones solicitadas, utilizando el español de España.
+Aquí tienes el resumen de la sesión de juego basado en la transcripción proporcionada.
 
-# Sesión 0.5: Caos en el Salto y Nuevos Destinos
+# Muerte en el Salto y el Renacer de la Tripulación
 
 **PJs presentes:**
-*   **Fermín** (Interpretado por Nacho - Muere al inicio de la sesión).
-*   **Goran** (Interpretado por Juan - Médico y combatiente cuerpo a cuerpo).
-*   **Nuevo Personaje de Nacho** (Artista/Ex-convicto/Diletante).
-*   **Nuevo Personaje de Fomega** (Piloto de la Armada/Belter).
-*   **Nuevo Personaje de Nemo** (Diplomático/Noble/Ex-Espía de Drinax).
-*   **Nuevo Personaje de Paloma** (Broker/Comerciante y dueña de la nave).
+*   **Fermín** (Personaje de Nacho, fallecido en esta sesión).
+*   **Goran** (Personaje de Juan).
+*   **Nemo** (Personaje de Speaker_05, Doctor/Diplomático).
+*   **PJ de Paloma** (Broker y Capitana de la nueva nave).
+*   **PJ de Fomega** (Piloto de la Armada).
+*   **PJ de Nacho** (Nuevo personaje, Artista y Ex-presidiario).
 
-**NPCs presentes:**
-*   **Aslan "Chuck Norris"** (Asaltante, líder del abordaje).
-*   **Kia** (Aslan hembra, subordinada del líder).
-*   **Pika** (Aliada de los PJs, tripulante).
-*   **Bespexers** (Aliados NPC, poco útiles en combate).
+**PNJs presentes:**
+*   **Pika** (Vespexer, incapacitada por el salto).
+*   **Kia** (Aslan hembra, aliada/tripulante, sufre mal del salto).
+*   **"Cugnorra" / Chuck Norris Aslan** (Asaltante Aslan, macho, líder del abordaje. *Arquetipo: Guerrero formidable*).
+*   **Aslan Hembra** (Asaltante, compañera de Cugnorra).
+*   **Rey Oleb XVI** (Mencionado como dueño de la hipoteca de la nave).
 
 **Desarrollos importantes en la vida de los PJs o la campaña:**
-*   **Muerte de un PJ:** El personaje Fermín muere violentamente durante el abordaje Aslan, lo que obliga al jugador (Nacho) a crear un nuevo personaje.
-*   **Obtención de la Nave:** Se establece que el personaje de Paloma es la propietaria principal (con hipoteca) de la nave *Saqueo Escarlata*, la cual perteneció anteriormente al **Rey Oleb XVI** en su juventud como pirata.
-*   **Conexiones Políticas:** El personaje de Nemo establece vínculos profundos con la administración de **Drinax**, conspiraciones nobles y una conexión casi mesiánica con los "Bespexers".
-*   **Formación de la Tripulación:** Se definen los roles clave: Paloma (Capitana/Comercio), Fomega (Piloto/Artillero), Nemo (Diplomático/Médico), Nacho (Artista/Fixer/Infiltración) y Goran (Médico/Combate).
+*   Muerte del personaje Fermín durante un abordaje hostil.
+*   Conformación de la nueva tripulación y adquisición de la nave *Saqueo Escarlata*, un carguero propiedad del Rey Oleb XVI (su antigua nave pirata), del cual el PJ de Paloma posee el 50% y gestiona la hipoteca.
+*   El PJ de Nemo se establece como un noble diplomático con conexiones políticas y un yate (posiblemente integrado en la nave principal).
 
 **Cabos sueltos:**
-*   El destino inmediato del combate tras la muerte de Fermín y la neutralización de la Aslan hembra (el combate se pausó para la creación de personajes).
-*   El estado de salud de Pika (congelada criogénicamente o gravemente herida tras ser rehén).
-*   La situación de la comida a bordo (carne Aslan no apta para humanos).
+*   El estado de los asaltantes Aslan capturados (uno herido y la hembra inconsciente) a bordo de la nave.
+*   La recuperación de Pika tras el salto.
+*   La gestión de la hipoteca con el Rey Oleb.
 
 ---
 
-## Escena 1: Emboscada en el Espacio de Salto
-
+### Escena: El Salto y el Abordaje
 **PJs presentes:** Goran, Fermín.
-**NPCs presentes:** Aslan Macho "Chuck Norris" (Agresor, físico imponente, letal, arquetipo de Guerrero de Élite), Kia (Agresor, ágil, usa garras, arquetipo de Asesina), Pika (Víctima, rehén, incapacitada), Bespexers (Inútiles, asustados).
-**Lugar:** A bordo de la nave de los PJs (durante el salto en el Espacio de Salto, cerca del motor y el puente).
+**PNJs presentes:** Pika (Incapacitada), Kia (Incapacitada), "Cugnorra" (Aslan macho, aspecto de Chuck Norris, agresivo), Aslan Hembra (Asaltante, subordinada).
+**Lugar:** La Nave (Espacio de Salto / Dimensión Oscura).
+**Naves:** La nave actual de los PJs (Sin nombre específico mencionado).
 
 **Resumen de la escena:**
-La sesión comienza con la nave entrando en el espacio de salto. La transición provoca un malestar físico y mental severo en la tripulación (náuseas, paranoia, pérdida de memoria). Aprovechando la confusión, dos Aslan abordan la nave. Un Aslan macho con apariencia humana (descrito como Chuck Norris peludo) irrumpe en el puente. Fermín intenta dispararle con un revólver pesado desde una cobertura, pero su armadura y armas son insuficientes. El Aslan responde con una pistola Gauss, destrozando la cobertura y matando a Fermín instantáneamente con un daño masivo.
+La nave inicia un salto interestelar. Durante la transición al espacio de salto, la tripulación sufre graves efectos físicos y mentales debido a la "dimensión oscura". Pika y Kia quedan incapacitadas por vómitos y migrañas. Goran sufre efectos mentales (irascibilidad, lagunas de memoria) y Fermín efectos físicos severos. Aprovechando el caos, un Aslan con aspecto de Chuck Norris ("Cugnorra") y una hembra Aslan abordan el puente. La hembra toma a Pika como rehén amenazándola con una garra y exige la rendición.
 
-Simultáneamente, la Aslan hembra (Kia) toma a Pika como rehén. Goran, superando el malestar del salto, sube al puente y se traba en combate cuerpo a cuerpo. Logra parar los golpes del Aslan macho y, tras un intercambio de ataques, hiere gravemente y deja inconsciente a la hembra Aslan. Pika queda incapacitada en el suelo. Goran intenta socorrer a Fermín, pero confirma que ha fallecido. Ante la falta de suministros médicos adecuados, Goran sugiere meter a Pika en criogenización para salvarla.
-
----
-
-## Escena 2: La Forja de los Viajeros (Creación de Personajes)
-
-**PJs presentes:** Nuevo PJ de Nacho, PJ de Fomega, PJ de Nemo, PJ de Paloma.
-**NPCs presentes:** Ninguno (Meta-juego).
-**Lugar:** Trasfondo de los personajes (Múltiples planetas, incluyendo Drinax, prisiones, bases navales y universidades).
+### Escena: El Duelo y la Muerte de Fermín
+**PJs presentes:** Goran, Fermín.
+**PNJs presentes:** "Cugnorra", Aslan Hembra, Pika.
+**Lugar:** Puente de Mando (La Nave).
 
 **Resumen de la escena:**
-Tras la muerte de Fermín, el grupo se centra en generar los historiales (Lifepath) de los personajes para la campaña, entrelazando sus historias:
+Se desata el combate. Fermín, gravemente afectado por el salto, dispara su revólver pesado contra el Aslan macho, pero la armadura del enemigo absorbe el impacto. "Cugnorra" responde con una pistola Gauss en fuego automático, atravesando la cobertura y la armadura de Fermín, causándole heridas mortales instantáneas. Goran entra en combate cuerpo a cuerpo con su espada contra el líder Aslan, logrando herirlo. En el caos, la Aslan hembra dispara intentando dar a Goran, pero impacta accidentalmente a su propio compañero. Goran aprovecha para noquear a la hembra Aslan. Goran intenta socorrer a Fermín con primeros auxilios, pero sus heridas son demasiado graves y fallece. Goran asegura a los prisioneros e intenta meterlos en criogenización/frigorífico.
 
-*   **El Artista Convicto (Nacho):** Comienza intentando entrar en la universidad. Logra estudiar artes visuales y escénicas, ganando un rival académico. Posteriormente, es encarcelado injustamente por un crimen que no cometió, pasando un tiempo en prisión donde aprende habilidades de "callejeo" y supervivencia (arquetipo *Fixer*). Finalmente, sale en libertad condicional y retoma su carrera artística, ganando fama y contactos.
-*   **El Piloto de la Armada (Fomega):** De origen *Belter* (minero de asteroides), es reclutado forzosamente por el Ejército. Logra transferirse a la Armada (Navy), especializándose en pilotaje de naves pequeñas y astrogación. Durante su servicio, detiene un motín a bordo, ganando enemigos pero avanzando en su carrera hasta alcanzar el rango de oficial.
-*   **El Diplomático de Drinax (Nemo):** Inicia como agente de inteligencia/espía. Regresa a **Drinax** para integrarse en la administración noble, gestionando asuntos relacionados con los "Bespexers". Se ve envuelto en intrigas de palacio y conspiraciones políticas, ganando tanto estatus social (Yate, membresía TAS) como rivales políticos. Termina con grandes habilidades sociales y médicas.
-*   **La Dueña de la Nave (Paloma):** Desarrolla una carrera como *Broker* (Corredora de comercio). A través de sus términos, evita la cárcel por poco y acumula beneficios materiales. Su mayor logro es adquirir la nave *Saqueo Escarlata*, vinculada al pasado del **Rey Oleb XVI**, con quien mantiene una hipoteca.
+### Escena: Creación de Trayectorias y el Saqueo Escarlata
+**PJs presentes:** Nemo, PJ de Paloma, PJ de Fomega, PJ de Nacho (Nuevo).
+**PNJs presentes:** Rey Oleb XVI (Mencionado).
+**Lugar:** Drinax (Planeta/Sistema), Prisión (Lugar de origen del PJ de Nacho), Purne (Planeta de origen).
+**Naves:** *Saqueo Escarlata* (Carguero/Antigua nave pirata, Capitana: PJ de Paloma), Yate (Propiedad de Nemo).
 
-La sesión concluye con la consolidación del grupo y la asignación de roles antes de retomar la narrativa principal.
+**Resumen de la escena:**
+Tras la muerte de Fermín, se narra la creación y trayectoria de los nuevos personajes y la evolución de los existentes para formar la nueva tripulación:
+*   **PJ de Fomega:** Ingresa en la Armada (Navy), se especializa como piloto de naves pequeñas y vuelo, participando en misiones diplomáticas y evitando motines.
+*   **PJ de Nacho:** Un artista/intérprete que termina encarcelado injustamente. En prisión se endurece, aprende a pelear y desarrolla habilidades de *fixer*. Al salir, retoma su carrera artística y critica a líderes políticos, ganando enemigos y fama.
+*   **Nemo:** Se consolida como un noble y diplomático, trabajando en la administración de Drinax. Obtiene un Yate, membresía en la TAS y estatus social.
+*   **PJ de Paloma:** Desarrolla una carrera exitosa como *Broker* (comerciante). A través de eventos de beneficios, consigue la propiedad parcial del *Saqueo Escarlata*, la antigua nave pirata del Rey Oleb XVI, asumiendo la hipoteca con el monarca.
+
+El grupo se consolida como una mezcla de delincuentes reformados, pilotos militares y nobles diplomáticos listos para iniciar su campaña.

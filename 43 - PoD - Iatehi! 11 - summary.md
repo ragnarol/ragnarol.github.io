@@ -3,57 +3,85 @@ layout: default
 title: 43   PoD   Iatehi! 11   Summary
 ---
 
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada, siguiendo el formato y las restricciones solicitadas.
+Aquí tienes el resumen de la sesión basado en la transcripción proporcionada:
 
-# Título de la Sesión: Muerte en el Vacío y Nuevos Horizontes
+# Título de la Sesión: Sangre en el Salto y Destinos Cruzados
 
-**PJs presentes:**
-*   Fermín (Muere durante la sesión)
+**PJ presentes**
+*   **Fermín** (Interpretado por Nacho. Muere durante la sesión).
+*   **Goran** (Interpretado por Juan).
+*   **Pika** (Interpretada por Paloma).
+*   **Nemo** (Interpretado por Nemo/Speaker_09).
+*   **Fomega** (Nuevo personaje, piloto, interpretado por Speaker_01).
+*   **Nuevo PJ de Nacho** (Artista ex-convicto, en proceso de creación).
+
+**PNJ presentes**
+*   **Kuk Norra** (Aslan macho, invasor. Físicamente descrito como "Chuck Norris con orejas", pelaje anaranjado. Armado con pistola Gauss y espada *Crescent*. Arquetipo: Enemigo/Invasor).
+*   **Aslan Hembra** (Invasora. Armada con revólver pesado y garras. Arquetipo: Enemigo/Cómplice).
+*   **Bespexers** (Tripulantes menores, uno de ellos posiblemente ciego. Arquetipo: Masillas/Tripulación prescindible).
+*   **Rey Oleb XVI** (Mencionado como el dueño original de la nave *Saqueo Escarlata*).
+
+**Desarrollo de la trama y objetivos de campaña**
+*   **Muerte de un PJ:** Fermín fallece durante un abordaje Aslan tras un salto fallido.
+*   **Recursos de la Tripulación:** Se establece que Pika posee el 50% de la nave *Saqueo Escarlata* (un carguero que perteneció al Rey Oleb) y Nemo ha adquirido un yate y una membresía TAS gracias a su estatus.
+*   **Nuevas incorporaciones:** Se perfilan los trasfondos de los nuevos personajes que sustituirán a las bajas o se unirán al grupo (un piloto de la Armada y un artista ex-convicto).
+
+**Cabos sueltos**
+*   **Estado de Pika:** Queda incapacitada y posiblemente lisiada tras el salto y el combate; se discute meterla en criogenización ("la nevera") para salvarla.
+*   **La prisionera:** La Aslan hembra ha quedado inconsciente y atada; su destino no se ha resuelto definitivamente.
+*   **Integración:** Falta narrar cómo se encuentran físicamente los nuevos personajes (Fomega y el nuevo de Nacho) con el grupo actual.
+
+---
+
+## Escena 1: Emboscada en el Espacio Salto
+
+**PJ presentes**
+*   Fermín
 *   Goran
-*   Pika (Mencionada, incapacitada)
-*   Nuevos personajes en creación: Personaje de Nemo (Noble/Diplomático), Personaje de Nacho (Artista/Ex-convicto), Personaje de Fomega (Piloto/Militar), Personaje de Paloma (Broker/Comerciante).
+*   Pika (Incapacitada)
+*   Bespexers (PNJ aliados)
 
-**PNJs presentes:**
-*   Aslan Macho "Kuknorra" (Invasor aslan, aspecto humanoide con rasgos felinos, armado con pistola Gauss y espada creciente - Arquetipo: Guerrero Invasor).
-*   Aslan Hembra (Compañera del invasor, armada con pistola y garras - Arquetipo: Secuaz/Luchadora).
-*   Vespexers (Tripulación NPC de fondo, incluyendo uno ciego).
+**PNJ presentes**
+*   **Kuk Norra** (Aslan invasor. Arquetipo: Guerrero de élite).
+*   **Aslan Hembra** (Aslan invasora. Arquetipo: Compañera de armas).
 
-**Desarrollo de la campaña:**
-*   Muerte del personaje jugador Fermín durante un asalto a la nave tras un salto interestelar.
-*   Consolidación de un nuevo grupo de personajes para continuar la campaña, estableciendo roles clave: un diplomático noble, un piloto militar, una comerciante con nave propia y un artista con pasado criminal.
-*   Adquisición (por trasfondo) de la nave "Saqueo Escarlata", antigua nave del Rey Oleb XVI, ahora en posesión del personaje de Paloma, con una hipoteca ligada al Rey.
+**Lugar(es) y/o Planeta(s)**
+*   Puente de Mando y Sala de Motores (Nave de los PJ, Espacio de Salto).
 
-**Cabos sueltos:**
-*   El estado crítico de Pika, que quedó incapacitada y posiblemente congelada criogénicamente para evitar la muerte.
-*   La gestión de la aslan hembra capturada (inconsciente) y el cuerpo del aslan macho.
-*   La falta de suministros médicos y comida adecuada para humanos en la nave actual.
-*   La integración narrativa de cómo se reunirá la nueva tripulación recién creada.
+**Nave(s) mencionada(s)**
+*   Nave de los PJ (Modelo desconocido, Capitán Pika/Fermín).
 
----
+**Resumen de la escena**
+La nave realiza un salto peligroso dentro de una esfera planetaria, provocando graves efectos físicos y mentales en la tripulación (náuseas, irascibilidad, fallos de memoria). Pika queda incapacitada vomitando. Aprovechando el caos, dos Aslan abordan el puente. **Kuk Norra**, un Aslan con aspecto humanoide, y una hembra atacan.
 
-## Escena 1: Emboscada tras el Salto
-
-**PJs presentes:** Goran, Fermín, Pika (mencionada).
-**PNJs presentes:** Aslan Macho "Kuknorra" (Combatiente formidable), Aslan Hembra (Asaltante).
-**Lugar:** Puente de mando y sala de motores de la nave, tras salir del salto (posiblemente cerca de Drinax o en el espacio profundo).
-
-**Resumen de la escena:**
-Al salir del salto interestelar, la tripulación sufre graves penalizadores físicos y mentales debido al "mal del salto". Aprovechando la confusión, dos aslanes abordan el puente. Fermín intenta defenderse disparando su revólver pesado desde una cobertura, pero falla debido a su estado y la armadura del enemigo. El aslan macho, apodado "Kuknorra", devuelve el fuego con una pistola Gauss, atravesando la armadura de Fermín y matándolo casi instantáneamente.
-
-Goran, superando los efectos del salto, sube al puente y entra en combate cuerpo a cuerpo. La aslan hembra toma a Pika como rehén y luego se une al tiroteo. Tras un intercambio de golpes y disparos, Goran logra abatir al aslan macho con su espada y dejar inconsciente a la hembra. Fermín no puede ser salvado por falta de habilidades médicas en la tripulación restante. Pika queda gravemente herida e inconsciente.
+Fermín intenta defenderse disparando desde la silla de piloto, pero su armadura no resiste el fuego de la pistola Gauss de Kuk Norra y **Fermín muere** en el acto. La Aslan hembra toma a Pika como rehén. Goran llega desde la sala de motores, se traba en combate cuerpo a cuerpo y, tras un duro enfrentamiento donde recibe varios disparos, logra matar a Kuk Norra y dejar inconsciente a la hembra. La escena termina con la tripulación superviviente decidiendo meter a Pika en una cámara criogénica para intentar salvarla y gestionando la muerte de Fermín.
 
 ---
 
-## Escena 2: Forjando el Destino (Creación de Personajes)
+## Escena 2: Forjando Nuevas Vidas (Creación de Personajes)
 
-**PJs presentes:** Nuevos personajes de Fomega, Nemo, Nacho y Paloma.
-**PNJs presentes:** Ninguno (Meta-juego de creación).
-**Lugar:** Meta-juego (Creación de trasfondos y trayectorias vitales).
+**PJ presentes**
+*   Fomega (Creando personaje).
+*   Nemo (Avanzando personaje).
+*   Nacho (Creando nuevo personaje).
+*   Paloma (Avanzando a Pika).
 
-**Resumen de la escena:**
-Tras la muerte de Fermín, los jugadores proceden a generar y finalizar sus nuevos personajes mediante el sistema de términos y carreras:
+**PNJ presentes**
+*   No aplican PNJ físicos, solo menciones de trasfondo (tutores, oficiales, jueces).
 
-*   **Personaje de Fomega:** Comienza como *Belter*, es reclutado forzosamente por el Ejército de Tierra (Infantería y Caballería) donde participa en fuerzas de pacificación, y finalmente logra transferirse a la Armada (*Navy*) como piloto de naves pequeñas, ganando enemigos y habilidades de pilotaje y mecánica.
-*   **Personaje de Nemo:** Inicia su carrera como Agente de Inteligencia, estableciendo redes de contactos. Posteriormente regresa a Drinax para servir como Noble en la administración y diplomacia. Termina con alto estatus social, un yate, membresía en clubes de élite y habilidades médicas y diplomáticas.
-*   **Personaje de Nacho:** Intenta triunfar en la Universidad y como *Performer* (Artes Escénicas). Es incriminado en un delito que no cometió y pasa un término en la cárcel, donde aprende a pelear y sobrevivir. Al salir, retoma su carrera como Artista, ganando rivales políticos y habilidades de engaño y arte.
-*   **Personaje de Paloma:** Se especializa como *Broker* (Corredora de comercio), ganando experiencia en el mercado negro y legal. A través de sus beneficios, adquiere el 50% de la propiedad de un carguero mercante independiente (Free Trader), que resulta ser el "Saqueo Escarlata", vinculando al grupo con el Rey Oleb.
+**Lugar(es) y/o Planeta(s)**
+*   Drinax (Planeta/Sistema - Lugar de retorno de Nemo).
+*   Prisión (Lugar de trasfondo del nuevo PJ de Nacho).
+*   Universidad y Academia Naval (Lugares de trasfondo).
+
+**Nave(s) mencionada(s)**
+*   **Saqueo Escarlata** (Carguero *Free Trader*, Capitana Pika/Rey Oleb XVI - Hipoteca).
+*   **Yate de Nemo** (Yate, Capitán Nemo - Beneficio de creación).
+
+**Resumen de la escena**
+Los jugadores dedican el resto de la sesión a generar los nuevos personajes y avanzar los términos de los existentes mediante las tablas de creación de *Traveller*:
+
+1.  **Fomega (Nuevo PJ):** Crea un personaje que intentó ser *Belter*, fue reclutado forzosamente por el Ejército de Tierra (Infantería) y posteriormente logró entrar en la Armada (*Navy*) como piloto de naves pequeñas, participando en misiones diplomáticas y sobreviviendo a un motín.
+2.  **Nacho (Nuevo PJ):** Crea un "artista" y *performer* que se define como una víctima del sistema. Pasó un término en la cárcel (donde aprendió a pelear y *Streetwise*) por un crimen que afirma no haber cometido. Termina su creación como un artista con rivales políticos.
+3.  **Nemo:** Avanza su carrera como Agente y Noble/Diplomático. Regresa a Drinax para trabajar en la administración. Obtiene grandes beneficios: un Yate, membresía en la TAS (*Travellers' Aid Society*) y participaciones de nave (*Ship Shares*).
+4.  **Pika (Paloma):** Realiza tiradas de beneficios acumulados. Obtiene la propiedad parcial de una nave tipo *Free Trader*. El GM establece que esta nave es el **Saqueo Escarlata**, una antigua nave pirata del Rey Oleb XVI, ahora un carguero en mal estado.
