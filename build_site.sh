@@ -165,7 +165,7 @@ for file in "$SRC_DIR"/*.md; do
 
   filename="$(basename "$file")"
   name="${filename%.md}"
-  title="$(echo "$name" | sed 's/-/ /g; s/_/ /g; s/\b\(.\)/\u\1/g')"
+  title="$(basename "$file" .md | sed 's/-/ /g; s/_/ /g; s/\b\(.\)/\u\1/g')"
 
   dest="$SITE_DIR/$filename"
 

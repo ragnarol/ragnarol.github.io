@@ -11,19 +11,45 @@
     <nav class="sidebar">
       <h2>{{ site.title }}</h2>
       <ul>
-        {% for page in site.pages %}
-          {% if page.title %}
+        {% for p in site.pages %}
+          {% if p.title %}
           <li>
-            <a href="{{ page.url | relative_url }}">
-              {{ page.title }}
+            <a href="{{ p.url | relative_url }}">
+              {{ p.title }}
             </a>
           </li>
           {% endif %}
         {% endfor %}
       </ul>
     </nav>
+
     <main class="content">
+      <!-- Auto header from filename -->
+      <h1>
+        {{ page.title | default: page.path | split: '/' | last | replace: '.md','' }}
+      </h1>
+
       {{ content }}
+
+      {% if page.comments != false %}
+      <hr style="margin: 3rem 0;">
+
+      <section id="comments">
+        <script src="https://giscus.app/client.js"
+          data-repo="ragnarol/ragnarol.github.io"
+          data-repo-id="MDEwOlJlcG9zaXRvcnkxNzMxODM3Mjk="
+          data-category="General"
+         data-category-id="DIC_kwDOClKS8c4C1YPo"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-theme="light"
+          crossorigin="anonymous"
+          async>
+        </script>
+      </section>
+      {% endif %}
     </main>
   </div>
 </body>
