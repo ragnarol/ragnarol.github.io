@@ -160,7 +160,7 @@ EOF
 # -------------------------------------------------
 cat > "$SITE_DIR/_layouts/default.html" <<'EOF'
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: 'en' }}">
+<html lang="{{ page.lang | default: 'es' }}">
 <head>
   <meta charset="utf-8">
   <title>{{ page.title }} — {{ site.title }}</title>
@@ -169,19 +169,21 @@ cat > "$SITE_DIR/_layouts/default.html" <<'EOF'
 </head>
 <body>
   <div class="lang-toggle">
-    <span>Language:</span>
+    <span>Idioma:</span>
+    <a href="{{ '/es/' | relative_url }}" {% if page.lang == 'es' or page.lang == nil %}class="active"{% endif %}>Español</a>
     <a href="{{ '/en/' | relative_url }}" {% if page.lang == 'en' %}class="active"{% endif %}>English</a>
-    <a href="{{ '/es/' | relative_url }}" {% if page.lang == 'es' %}class="active"{% endif %}>Español</a>
   </div>
 
   <div class="layout">
     <nav class="sidebar">
       <h2>{{ site.title }}</h2>
       <ul>
-        {% if page.lang == 'es' %}
+        {% if page.lang == 'en' %}
+          {% assign pages = site.pages | where: "lang", "en" %}
+        {% elsif page.lang == 'es' %}
           {% assign pages = site.pages | where: "lang", "es" %}
         {% else %}
-          {% assign pages = site.pages | where: "lang", "en" %}
+          {% assign pages = site.pages | where: "lang", "es" %}
         {% endif %}
         
         {% for p in pages %}
@@ -313,18 +315,18 @@ EOF
 fi
 
 # -------------------------------------------------
-# Main index page (redirects to English by default)
+# Main index page (redirects to Spanish by default)
 # -------------------------------------------------
 cat > "$SITE_DIR/index.md" <<'EOF'
 ---
 layout: default
-title: Home
-lang: en
+title: Inicio
+lang: es
 ---
 
 # Piratas de Drinax / Pirates of Drinax
 
-Please select your language using the toggle at the top:
+Selecciona tu idioma usando los botones en la parte superior:
 - [Español](/es/)
 - [English](/en/)
 EOF

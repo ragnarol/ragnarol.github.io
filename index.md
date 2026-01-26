@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Home
-lang: en
+title: Inicio
+lang: es
 ---
 
 # Piratas de Drinax / Pirates of Drinax
 
-Please select your language using the toggle at the top:
+Selecciona tu idioma usando los botones en la parte superior:
 - [Español](/es/)
 - [English](/en/)
