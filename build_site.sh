@@ -97,7 +97,7 @@ a:hover {
 }
 
 .sidebar {
-  width: 260px;
+  width: 390px;
   background: var(--sidebar-bg);
   border-right: 1px solid var(--border);
   padding: 1rem;
