@@ -32,6 +32,32 @@ a:hover {
   min-height: 100vh;
 }
 
+.lang-toggle {
+  background: var(--sidebar-bg);
+  border-bottom: 1px solid var(--border);
+  padding: 0.75rem 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.lang-toggle a {
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.lang-toggle a:hover {
+  background: rgba(0,0,0,0.05);
+  text-decoration: none;
+}
+
+.lang-toggle a.active {
+  background: var(--link);
+  color: white;
+}
+
 .sidebar {
   width: 260px;
   background: var(--sidebar-bg);

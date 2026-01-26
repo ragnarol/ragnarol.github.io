@@ -1,17 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang | default: 'en' }}">
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title }} – {{ site.title }}</title>
+  <title>{{ page.title }} — {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
+  <div class="lang-toggle">
+    <span>Language:</span>
+    <a href="{{ '/en/' | relative_url }}" {% if page.lang == 'en' %}class="active"{% endif %}>English</a>
+    <a href="{{ '/es/' | relative_url }}" {% if page.lang == 'es' %}class="active"{% endif %}>Español</a>
+  </div>
+
   <div class="layout">
     <nav class="sidebar">
       <h2>{{ site.title }}</h2>
       <ul>
-        {% for p in site.pages %}
+        {% if page.lang == 'es' %}
+          {% assign pages = site.pages | where: "lang", "es" %}
+        {% else %}
+          {% assign pages = site.pages | where: "lang", "en" %}
+        {% endif %}
+        
+        {% for p in pages %}
           {% if p.title %}
           <li>
             <a href="{{ p.url | relative_url }}">
@@ -24,7 +36,6 @@
     </nav>
 
     <main class="content">
-      <!-- Auto header from filename -->
       <h1>
         {{ page.title | default: page.path | split: '/' | last | replace: '.md','' }}
       </h1>
@@ -39,7 +50,7 @@
           data-repo="ragnarol/ragnarol.github.io"
           data-repo-id="MDEwOlJlcG9zaXRvcnkxNzMxODM3Mjk="
           data-category="General"
-         data-category-id="DIC_kwDOClKS8c4C1YPo"
+          data-category-id="DIC_kwDOClKS8c4C1YPo"
           data-mapping="pathname"
           data-strict="0"
           data-reactions-enabled="1"

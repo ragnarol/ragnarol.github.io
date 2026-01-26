@@ -1,2 +1,9 @@
 title: Piratas de Drinax
 markdown: kramdown
+collections:
+  es:
+    output: true
+    permalink: /es/:name/
+  en:
+    output: true
+    permalink: /en/:name/
