@@ -1,4 +1,8 @@
-Aquí tienes el resumen de la sesión siguiendo el formato solicitado y en castellano de España.
+---
+layout: default
+title: 61   PoD   Cordan Out
+lang: en
+---
 
 # Arde Cordán: Gallinas, Fuego y Marquesados
 

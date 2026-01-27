@@ -1,3 +1,8 @@
+layout: default
+title: 61   PoD   Cordan Out Eng
+lang: en
+---
+
 Here is the session summary following the requested format and in Spanish from Spain.
 
 # Arde Cordán: Chickens, Fire, and Marquessates
