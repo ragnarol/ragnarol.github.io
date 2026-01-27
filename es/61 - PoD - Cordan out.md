@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 61   PoD   Cordan Out
-lang: en
+lang: es
 ---
 
 # Arde Cordán: Gallinas, Fuego y Marquesados
