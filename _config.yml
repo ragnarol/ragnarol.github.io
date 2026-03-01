@@ -1,9 +1,17 @@
-title: Piratas de Drinax
+title: RPG Campaign Summaries
 markdown: kramdown
-collections:
-  es:
-    output: true
-    permalink: /es/:name/
-  en:
-    output: true
-    permalink: /en/:name/
+exclude: [build_site.sh, source, README.md, CNAME]
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "es"
+    values:
+      lang: es
+  - scope:
+      path: "en"
+    values:
+      lang: en

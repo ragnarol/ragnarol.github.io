@@ -4,6 +4,6 @@ title: Home
 lang: en
 ---
 
-# Pirates of Drinax
+# RPG Campaigns
 
-Use the sidebar navigation to explore the English content.
+Use the sidebar menu to explore our campaign summaries.

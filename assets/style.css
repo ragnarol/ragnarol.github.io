@@ -70,14 +70,31 @@ a:hover {
   margin-top: 0;
 }
 
+.sidebar summary {
+  cursor: pointer;
+  padding: 0.5rem 0;
+  user-select: none;
+}
+
+.sidebar summary:hover {
+  color: var(--link);
+}
+
 .sidebar ul {
   list-style: none;
-  padding: 0;
+  padding-left: 1rem;
   margin: 0;
 }
 
 .sidebar li {
-  margin: 0.4rem 0;
+  margin: 0.2rem 0;
+}
+
+.sidebar .active-link {
+  font-weight: bold;
+  color: var(--text);
+  border-left: 2px solid var(--link);
+  padding-left: 0.5rem;
 }
 
 .content {

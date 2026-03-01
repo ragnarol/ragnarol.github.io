@@ -4,6 +4,6 @@ title: Inicio
 lang: es
 ---
 
-# Piratas de Drinax
+# Campañas de Rol
 
-Usa la barra de navegación en el lateral para explorar el contenido en español.
+Usa el menú lateral para explorar los resúmenes de nuestras campañas.

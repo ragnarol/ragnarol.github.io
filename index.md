@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Inicio
+title: RPG Campaign Summaries
 lang: es
 ---
 
-# Piratas de Drinax / Pirates of Drinax
+# Resúmenes de Campañas de Rol / RPG Campaign Summaries
 
-Selecciona tu idioma usando los botones en la parte superior:
+Selecciona tu idioma / Select your language:
 - [Español](/es/)
 - [English](/en/)

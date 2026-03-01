@@ -2,7 +2,7 @@
 <html lang="{{ page.lang | default: 'es' }}">
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title }} — {{ site.title }}</title>
+  <title>{{ page.title | default: page.path | split: '/' | last | replace: '.md','' }} — {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
@@ -15,31 +15,47 @@
 
   <div class="layout">
     <nav class="sidebar">
-      <h2>{{ site.title }}</h2>
-      <ul>
-        {% if page.lang == 'en' %}
-          {% assign pages = site.pages | where: "lang", "en" %}
-        {% elsif page.lang == 'es' %}
-          {% assign pages = site.pages | where: "lang", "es" %}
-        {% else %}
-          {% assign pages = site.pages | where: "lang", "es" %}
+      <h2><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h2>
+      
+      {% assign current_lang = page.lang | default: 'es' %}
+      {% assign lang_pages = site.pages | where: "lang", current_lang | sort: "path" %}
+      
+      {% assign campaigns = "" | split: "" %}
+      {% for p in lang_pages %}
+        {% assign p_parts = p.path | split: "/" %}
+        {% if p_parts.size > 2 %}
+          {% assign c_name = p_parts[1] | replace: "-", " " | capitalize %}
+          {% unless campaigns contains c_name %}
+            {% assign campaigns = campaigns | push: c_name %}
+          {% endunless %}
         {% endif %}
-        
-        {% for p in pages %}
-          {% if p.title %}
-          <li>
-            <a href="{{ p.url | relative_url }}">
-              {{ p.title }}
-            </a>
-          </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
+      {% endfor %}
+
+      {% for campaign_name in campaigns %}
+        <details open>
+          <summary><strong>{{ campaign_name }}</strong></summary>
+          <ul>
+            {% for p in lang_pages %}
+              {% assign p_parts = p.path | split: "/" %}
+              {% assign p_campaign = p_parts[1] | replace: "-", " " | capitalize %}
+              {% if p_campaign == campaign_name %}
+              {% if p.name != "index.md" %}
+              <li>
+                <a href="{{ p.url | relative_url }}" {% if p.url == page.url %}class="active-link"{% endif %}>
+                  {{ p.title | default: p.name | replace: '.md','' | replace: '-', ' ' | replace: '_', ' ' }}
+                </a>
+              </li>
+              {% endif %}
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </details>
+      {% endfor %}
     </nav>
 
     <main class="content">
       <h1>
-        {{ page.title | default: page.path | split: '/' | last | replace: '.md','' }}
+        {{ page.title | default: page.name | replace: '.md','' | replace: '-', ' ' | replace: '_', ' ' }}
       </h1>
 
       {{ content }}
