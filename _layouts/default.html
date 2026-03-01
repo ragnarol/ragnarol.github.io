@@ -23,39 +23,46 @@
       {% assign current_lang = page.lang | default: 'es' %}
       {% assign lang_pages = site.pages | where: "lang", current_lang | sort: "path" %}
       
-      {% comment %} Calculate current page campaign {% endcomment %}
-      {% assign path_parts = page.path | split: "/" %}
+      {% comment %} 
+        Extract current campaign from path. 
+        Example path: es/ravenloft/02 - El Mensaje en el Barro.md
+      {% endcomment %}
+      {% assign current_path_parts = page.path | split: "/" %}
       {% assign current_campaign = "" %}
-      {% if path_parts.size > 2 %}
-        {% assign current_campaign = path_parts[1] | replace: "-", " " | capitalize %}
+      {% if current_path_parts.size > 2 %}
+        {% assign current_campaign = current_path_parts[1] %}
       {% endif %}
 
-      {% assign campaigns = "" | split: "" %}
+      {% assign campaign_list = "" | split: "" %}
       {% for p in lang_pages %}
         {% assign p_parts = p.path | split: "/" %}
         {% if p_parts.size > 2 %}
-          {% assign c_name = p_parts[1] | replace: "-", " " | capitalize %}
-          {% unless campaigns contains c_name %}
-            {% assign campaigns = campaigns | push: c_name %}
+          {% assign c_id = p_parts[1] %}
+          {% unless campaign_list contains c_id %}
+            {% assign campaign_list = campaign_list | push: c_id %}
           {% endunless %}
         {% endif %}
       {% endfor %}
 
-      {% for campaign_name in campaigns %}
-        <details {% if campaign_name == current_campaign %}open{% endif %}>
-          <summary><strong>{{ campaign_name }}</strong></summary>
+      {% for c_id in campaign_list %}
+        {% assign is_current = false %}
+        {% if c_id == current_campaign %}
+          {% assign is_current = true %}
+        {% endif %}
+        
+        <details {% if is_current %}open{% endif %}>
+          <summary><strong>{{ c_id | replace: "-", " " | capitalize }}</strong></summary>
           <ul>
             {% for p in lang_pages %}
               {% assign p_parts = p.path | split: "/" %}
-              {% assign p_campaign = p_parts[1] | replace: "-", " " | capitalize %}
-              {% if p_campaign == campaign_name %}
-              {% if p.name != "index.md" %}
-              <li>
-                <a href="{{ p.url | relative_url }}" {% if p.url == page.url %}class="active-link"{% endif %}>
-                  {{ p.title | default: p.name | replace: '.md','' | replace: ' - eng', '' | replace: ' - summary', '' | replace: '- eng', '' | replace: '- summary', '' | replace: '-', ' ' | replace: '_', ' ' }}
-                </a>
-              </li>
-              {% endif %}
+              {% if p_parts[1] == c_id %}
+                {% if p.name != "index.md" %}
+                <li>
+                  <a href="{{ p.url | relative_url }}" {% if p.url == page.url %}class="active-link"{% endif %}>
+                    {{ p.title | default: p.name | replace: '.md','' | replace: ' - eng', '' | replace: ' - summary', '' | replace: '- eng', '' | replace: '- summary', '' | replace: '-', ' ' | replace: '_', ' ' }}
+                  </a>
+                </li>
+                {% endif %}
               {% endif %}
             {% endfor %}
           </ul>
