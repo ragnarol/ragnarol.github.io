@@ -2,7 +2,7 @@
 <html lang="{{ page.lang | default: 'es' }}">
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title | default: page.path | split: '/' | last | replace: '.md','' }} — {{ site.title }}</title>
+  <title>{{ page.title | default: page.name | replace: '.md','' | replace: ' - eng', '' | replace: ' - summary', '' | replace: '- eng', '' | replace: '- summary', '' | replace: '-', ' ' | replace: '_', ' ' }} — {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
   {% if page.theme %}
@@ -45,7 +45,7 @@
               {% if p.name != "index.md" %}
               <li>
                 <a href="{{ p.url | relative_url }}" {% if p.url == page.url %}class="active-link"{% endif %}>
-                  {{ p.title | default: p.name | replace: '.md','' | replace: '-', ' ' | replace: '_', ' ' }}
+                  {{ p.title | default: p.name | replace: '.md','' | replace: ' - eng', '' | replace: ' - summary', '' | replace: '- eng', '' | replace: '- summary', '' | replace: '-', ' ' | replace: '_', ' ' }}
                 </a>
               </li>
               {% endif %}
@@ -58,7 +58,7 @@
 
     <main class="content">
       <h1>
-        {{ page.title | default: page.name | replace: '.md','' | replace: '-', ' ' | replace: '_', ' ' }}
+        {{ page.title | default: page.name | replace: '.md','' | replace: ' - eng', '' | replace: ' - summary', '' | replace: '- eng', '' | replace: '- summary', '' | replace: '-', ' ' | replace: '_', ' ' }}
       </h1>
 
       {{ content }}
