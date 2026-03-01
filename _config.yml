@@ -15,3 +15,19 @@ defaults:
       path: "en"
     values:
       lang: en
+  - scope:
+      path: "es/pirates-of-drinax"
+    values:
+      theme: sci-fi
+  - scope:
+      path: "en/pirates-of-drinax"
+    values:
+      theme: sci-fi
+  - scope:
+      path: "es/ravenloft"
+    values:
+      theme: gothic
+  - scope:
+      path: "en/ravenloft"
+    values:
+      theme: gothic

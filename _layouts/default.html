@@ -5,6 +5,9 @@
   <title>{{ page.title | default: page.path | split: '/' | last | replace: '.md','' }} — {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  {% if page.theme %}
+  <link rel="stylesheet" href="{{ '/assets/themes/' | append: page.theme | append: '.css' | relative_url }}">
+  {% endif %}
 </head>
 <body>
   <div class="lang-toggle">

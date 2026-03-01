@@ -1,0 +1,39 @@
+:root {
+  --bg: #0b0e14;
+  --sidebar-bg: #161b22;
+  --border: #30363d;
+  --text: #c9d1d9;
+  --link: #58a6ff;
+  --code-bg: #161b22;
+  --accent: #1f6feb;
+  --glow: 0 0 10px rgba(88, 166, 255, 0.5);
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.sidebar {
+  border-right: 2px solid var(--accent);
+  box-shadow: var(--glow);
+}
+
+.content h1, .content h2, .content h3 {
+  color: var(--link);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px solid var(--accent);
+  text-shadow: var(--glow);
+}
+
+.lang-toggle {
+  background: var(--sidebar-bg);
+  border-bottom: 2px solid var(--accent);
+}
+
+a.active {
+  background: var(--accent) !important;
+  box-shadow: var(--glow);
+}
