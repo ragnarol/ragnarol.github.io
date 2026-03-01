@@ -23,6 +23,13 @@
       {% assign current_lang = page.lang | default: 'es' %}
       {% assign lang_pages = site.pages | where: "lang", current_lang | sort: "path" %}
       
+      {% comment %} Calculate current page campaign {% endcomment %}
+      {% assign path_parts = page.path | split: "/" %}
+      {% assign current_campaign = "" %}
+      {% if path_parts.size > 2 %}
+        {% assign current_campaign = path_parts[1] | replace: "-", " " | capitalize %}
+      {% endif %}
+
       {% assign campaigns = "" | split: "" %}
       {% for p in lang_pages %}
         {% assign p_parts = p.path | split: "/" %}
@@ -35,7 +42,7 @@
       {% endfor %}
 
       {% for campaign_name in campaigns %}
-        <details open>
+        <details {% if campaign_name == current_campaign %}open{% endif %}>
           <summary><strong>{{ campaign_name }}</strong></summary>
           <ul>
             {% for p in lang_pages %}
