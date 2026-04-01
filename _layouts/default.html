@@ -2,7 +2,7 @@
 <html lang="{{ page.lang | default: 'es' }}">
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title | default: page.name | replace: '.md','' | replace: ' - eng', '' | replace: ' - summary', '' | replace: '- eng', '' | replace: '- summary', '' | replace: '-', ' ' | replace: '_', ' ' }} — {{ site.title }}</title>
+  <title>{% if page.name == "index.md" %}{{ page.title }}{% else %}{{ page.name | replace: '.md','' | replace: ' - eng', '' | replace: ' - summary', '' | replace: '- eng', '' | replace: '- summary', '' | replace: '-', ' ' | replace: '_', ' ' | replace: '  ', ' ' }}{% endif %} — {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
   {% if page.theme %}
@@ -59,7 +59,7 @@
                 {% if p.name != "index.md" %}
                 <li>
                   <a href="{{ p.url | relative_url }}" {% if p.url == page.url %}class="active-link"{% endif %}>
-                    {{ p.title | default: p.name | replace: '.md','' | replace: ' - eng', '' | replace: ' - summary', '' | replace: '- eng', '' | replace: '- summary', '' | replace: '-', ' ' | replace: '_', ' ' }}
+                    {{ p.name | replace: '.md','' | replace: ' - eng', '' | replace: ' - summary', '' | replace: '- eng', '' | replace: '- summary', '' | replace: '-', ' ' | replace: '_', ' ' | replace: '  ', ' ' }}
                   </a>
                 </li>
                 {% endif %}
@@ -72,7 +72,7 @@
 
     <main class="content">
       <h1>
-        {{ page.title | default: page.name | replace: '.md','' | replace: ' - eng', '' | replace: ' - summary', '' | replace: '- eng', '' | replace: '- summary', '' | replace: '-', ' ' | replace: '_', ' ' }}
+        {% if page.name == "index.md" %}{{ page.title }}{% else %}{{ page.name | replace: '.md','' | replace: ' - eng', '' | replace: ' - summary', '' | replace: '- eng', '' | replace: '- summary', '' | replace: '-', ' ' | replace: '_', ' ' | replace: '  ', ' ' }}{% endif %}
       </h1>
 
       {{ content }}

@@ -18,13 +18,13 @@ Here is the translation of the provided text to English, without adding or inven
 **Main events and loose ends:**
 The group finally manages to enter the city of Vallaki in the morning, discovering a place steeped in a strange and forced happiness imposed by its leader, the Burgomaster, who celebrates absurd festivals every week believing that joy will keep Strahd away. After a bit of investigation around the city and leaving their cart, the characters attend the start of the "Festival of the Blazing Sun," where they witness the cruelty of the Burgomaster and his lethal personal guard.
 
-Later, they visit Blinsky's creepy toy shop and the Blue Water Inn. They discover that their allies are divided and in danger: Feyre has been taken to the Burgomaster's mansion, Ireena has disappeared after sleeping at the inn, and they receive a message warning that Erdan and the rest are trapped as prisoners in Castle Strahd. The session ends with the Burgomaster inviting the group to dinner at his mansion as thanks for bringing Ireena to the city.
+Later, they visit Blinsky's creepy toy shop and the Blue Water Inn. They discover that their allies are divided and in danger: Ireena has been taken to the Burgomaster's mansion, Feyre has disappeared after sleeping at the inn, and they receive a message warning that Erdan and the rest are trapped as prisoners in Castle Strahd. The session ends with the Burgomaster inviting the group to dinner at his mansion as thanks for bringing Ireena to the city.
 
 **Loose ends requiring follow-up:**
 * What kind of monster or beast is locked inside Rictavio's "Carnival of Wonders" wagon?
 * Why does the toy maker Blinsky craft dozens of dolls that are exact copies of Ireena?
-* Where is Ireena currently after leaving the inn?
-* How will they rescue Feyre from the Burgomaster's house?
+* Where is Feyre currently after leaving the inn?
+* How will they rescue Ireena from the Burgomaster's house?
 * How will they help Erdan, Broseph, and Renoir get out of Castle Strahd?
 * The innkeeper Urwin has asked for help to find out what has happened to the wine shipment from the *Vintner's Wench Winery* to the west.
 * Blinsky has asked for them to bring him or investigate a "mechanical man" that Strahd supposedly keeps in his castle.
@@ -45,7 +45,7 @@ The "North Korea" of Ravenloft. Undoubtedly, the funniest moment was when the pl
 * **PCs present:** Pulgar, Ceres, Ladril Gabriel.
 * **NPCs present:** Gunther and Yalena Arasek (*scared shopkeepers, automaton smiles; archetype: oppressed citizens*).
 * **Location(s):** The Arasek Shop/Warehouse.
-* **Loot obtained:** Component Pouch for Ceres. Pulgar trades a gold ring with an emerald (valued at 25 gp) in exchange.
+* **Loot obtained:** Component Pouch for Ceres. Pulgar trades a gold ring with an emerald (valued at 125 gp) in exchange.
 * **Summary:** The group enters the shop to get magical components for Ceres. They manage to barter by trading a gold ring. When they inquire about people leaving the city and mention that the Burgomaster seems "overbearing" with so many festivals, the shopkeepers' attitude changes drastically. Terrified, their eyes widen, they put on fake smiles, and begin to repeat as a mantra "Everything will be fine," politely inviting them to leave the shop and avoid trouble.
 
 ### Scene 3: The Festival of the Blazing Sun
@@ -75,4 +75,4 @@ The "North Korea" of Ravenloft. Undoubtedly, the funniest moment was when the pl
   * The Burgomaster (*reappears triumphant and smiling*).
 * **Location(s):** The Blue Water Inn.
 * **Loot obtained:** None (Pulgar gives another gold ring valued at 25 gp to open a credit account for the group).
-* **Summary:** While Ceres casts the spell *Locate Object* to search for the scythe Feyre was carrying (detecting it weakly to the west), Pulgar negotiates with the innkeeper Urwin to open a credit account in exchange for a gold ring. Urwin reveals bad news: Ireena slept there but left in the morning, and Feyre was taken to the Burgomaster's house and has not returned. Additionally, he gives them a note brought by a raven signed by Erdan: the rest of the party is trapped in Castle Strahd and will not be allowed to leave until the entire group attends dinner. Urwin also asks them to investigate the *Vintner's Wench Winery* because their shipment has not arrived. Suddenly, the Burgomaster enters the inn accompanied by his dogs and guards. He approaches the group with a wide smile and, to thank them for bringing Ireena to the city and for helping with the torch, invites them to dinner at his mansion that very evening, promising them a great surprise. He bids them farewell with his motto: "Everything will be fine."
+* **Summary:** While Ceres casts the spell *Locate Object* to search for the scythe Feyre was carrying (detecting it weakly to the west), Pulgar negotiates with the innkeeper Urwin to open a credit account in exchange for a gold ring. Urwin reveals bad news: Feyre slept there but left in the morning, and Ireena was taken to the Burgomaster's house and has not returned. Additionally, he gives them a note brought by a raven signed by Erdan: the rest of the party is trapped in Castle Strahd and will not be allowed to leave until the entire group attends dinner. Urwin also asks them to investigate the *Vintner's Wench Winery* because their shipment has not arrived. Suddenly, the Burgomaster enters the inn accompanied by his dogs and guards. He approaches the group with a wide smile and, to thank them for bringing Ireena to the city and for helping with the torch, invites them to dinner at his mansion that very evening, promising them a great surprise. He bids them farewell with his motto: "Everything will be fine."

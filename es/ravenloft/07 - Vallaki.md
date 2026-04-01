@@ -16,13 +16,13 @@
 **Principales acontecimientos y cabos sueltos:**
 El grupo logra entrar por fin a la ciudad de Vallaki (Balaquia) por la mañana, descubriendo un lugar sumido en una extraña y forzada felicidad impuesta por su líder, el Burgomaestre, quien celebra festivales absurdos cada semana creyendo que la alegría mantendrá alejado a Strahd. Tras investigar un poco la ciudad, dejar su carro y comprar componentes mágicos, los personajes asisten al inicio del "Festival del Sol Llameante", donde presencian la crueldad del Burgomaestre y su letal guardia personal. 
 
-Más tarde visitan la espeluznante juguetería de Blinsky y la Posada del Agua Azul. Descubren que sus aliados están divididos y en peligro: Feyre ha sido llevada a la mansión del Burgomaestre, Ireena ha desaparecido tras dormir en la posada, y reciben un mensaje avisando que Erdan y el resto están atrapados como prisioneros en el Castillo de Strahd. La sesión termina con el Burgomaestre invitando al grupo a cenar a su mansión como agradecimiento por haber traído a Ireena a la ciudad.
+Más tarde visitan la espeluznante juguetería de Blinsky y la Posada del Agua Azul. Descubren que sus aliados están divididos y en peligro: Ireena ha sido llevada a la mansión del Burgomaestre, Feyre ha desaparecido tras dormir en la posada, y reciben un mensaje avisando que Erdan y el resto están atrapados como prisioneros en el Castillo de Strahd. La sesión termina con el Burgomaestre invitando al grupo a cenar a su mansión como agradecimiento por haber traído a Ireena a la ciudad.
 
 **Cabos sueltos que requieren seguimiento:**
 * ¿Qué clase de monstruo o bestia está encerrado dentro del carro de la "Feria de las Maravillas de Rictavio"?
 * ¿Por qué el juguetero Blinsky fabrica decenas de muñecas que son copias exactas de Ireena?
-* ¿Dónde está Ireena actualmente tras abandonar la posada?
-* ¿Cómo van a rescatar a Feyre de la casa del Burgomaestre?
+* ¿Dónde está Feyre actualmente tras abandonar la posada?
+* ¿Cómo van a rescatar a Ireena de la casa del Burgomaestre?
 * ¿Cómo ayudarán a Erdan, Broseph y Renoir a salir del Castillo de Strahd?
 * El posadero Urwin ha pedido ayuda para averiguar qué ha pasado con el cargamento de vino de la *Bodega del Mago de los Vinos* al oeste.
 * Blinsky ha pedido que le traigan o investiguen a un "hombre mecánico" que supuestamente Strahd tiene en su castillo.
@@ -43,7 +43,7 @@ El "Corea del Norte" de Ravenloft. Sin duda, el momento más gracioso fue cuando
 * **PJs presentes:** Pulgar, Ceres, Ladril Gabriel.
 * **PNJs presentes:** Gunther y Yalena Arasek (*tenderos asustadizos, sonrisas de autómata; arquetipo: ciudadanos oprimidos*).
 * **Lugar(es):** Tienda/Almacén de los Arasek.
-* **Botín obtenido:** Component Pouch (Bolsa de componentes) para Ceres. Pulgar entrega a cambio un anillo de oro con una esmeralda (valorado en 25 mo).
+* **Botín obtenido:** Component Pouch (Bolsa de componentes) para Ceres. Pulgar entrega a cambio un anillo de oro con una esmeralda (valorado en 125 mo).
 * **Resumen:** El grupo entra a la tienda para conseguir componentes mágicos para Ceres. Logran hacer un trueque entregando un anillo de oro. Al preguntar sobre la gente que sale de la ciudad y mencionar que el Burgomaestre parece "un pesado" con tanto festival, la actitud de los tenderos cambia drásticamente. Aterrorizados, abren mucho los ojos, ponen sonrisas falsas y comienzan a repetir como un lema "Todo irá bien", invitándoles cortésmente a marcharse de la tienda y no meterse en problemas.
 
 ### Escena 3: El Festival del Sol Llameante
@@ -73,4 +73,4 @@ El "Corea del Norte" de Ravenloft. Sin duda, el momento más gracioso fue cuando
   * El Burgomaestre (*reaparece triunfal y sonriente*).
 * **Lugar(es):** Posada del Agua Azul (Blue Water Inn).
 * **Botín obtenido:** Ninguno (Pulgar entrega otro anillo de oro valorado en 25 mo para abrir una cuenta de crédito para el grupo).
-* **Resumen:** Mientras Ceres lanza el conjuro *Localizar Objeto* para buscar la hoz que llevaba Feyre (detectándola débilmente al oeste), Pulgar negocia con el posadero Urwin abrir una cuenta de crédito a cambio de un anillo de oro. Urwin les revela malas noticias: Ireena durmió allí pero se marchó por la mañana, y Feyre fue llevada a la casa del Burgomaestre y no ha vuelto. Además, les entrega una nota traída por un cuervo firmada por Erdan: el resto de la party está atrapada en el castillo de Strahd y no les dejarán salir hasta que el grupo completo asista a cenar. Urwin también les pide que investiguen la *Bodega del Mago de los Vinos* porque su cargamento no llega. De pronto, el Burgomaestre entra en la posada acompañado de sus perros y guardias. Se acerca al grupo muy sonriente y, para agradecerles haber traído a Ireena a la ciudad y por ayudar con la antorcha, los invita a cenar a su mansión esa misma noche, prometiéndoles una gran sorpresa. Se despide con su lema: "Todo irá bien".
+* **Resumen:** Mientras Ceres lanza el conjuro *Localizar Objeto* para buscar la hoz que llevaba Feyre (detectándola débilmente al oeste), Pulgar negocia con el posadero Urwin abrir una cuenta de crédito a cambio de un anillo de oro. Urwin les revela malas noticias: Feyre durmió allí pero se marchó por la mañana, y Ireena fue llevada a la casa del Burgomaestre y no ha vuelto. Además, les entrega una nota traída por un cuervo firmada por Erdan: el resto de la party está atrapada en el castillo de Strahd y no les dejarán salir hasta que el grupo completo asista a cenar. Urwin también les pide que investiguen la *Bodega del Mago de los Vinos* porque su cargamento no llega. De pronto, el Burgomaestre entra en la posada acompañado de sus perros y guardias. Se acerca al grupo muy sonriente y, para agradecerles haber traído a Ireena a la ciudad y por ayudar con la antorcha, los invita a cenar a su mansión esa misma noche, prometiéndoles una gran sorpresa. Se despide con su lema: "Todo irá bien".
