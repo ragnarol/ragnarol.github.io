@@ -101,6 +101,20 @@ a:hover {
   flex: 1;
   padding: 2rem;
   max-width: 900px;
+  line-height: 1.6;
+}
+
+.content p, .content ul, .content ol, .content blockquote {
+  margin-bottom: 1.25rem;
+}
+
+.content li {
+  margin-bottom: 0.5rem;
+}
+
+.content li > ul, .content li > ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
 }
 
 pre, code {
@@ -120,6 +134,8 @@ code {
 h1, h2, h3 {
   border-bottom: 1px solid var(--border);
   padding-bottom: 0.3em;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 800px) {
