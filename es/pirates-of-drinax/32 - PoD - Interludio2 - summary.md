@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basándome en la transcripción proporcionada.
-
 # Título de la Sesión: Intrigas en Palacio y la Amenaza Iatei
 
 **PJs presentes:**

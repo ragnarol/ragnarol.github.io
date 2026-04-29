@@ -1,5 +1,3 @@
-Here is the summary of the session based on the provided transcript.
-
 # Aslan Protocol in Kteiroa
 
 **PCs present:** Ondo, Paloma, Jay, Goran, Nemo, Fermín.

@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada.
-
 # Título de la Sesión: Dioses de Fantasy y la Conspiración Ihatei
 
 **PJs presentes:**

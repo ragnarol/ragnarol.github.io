@@ -1,5 +1,3 @@
-Here is the summary of the session based on the provided transcript.
-
 # War Logistics and Diplomacy on the Rim
 
 **PCs present:**

@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el formato solicitado:
-
 # Título de la Sesión: Rodajes, Negocios y Secretos Imperiales
 
 **PJs presentes:** Sony (Juan), Fermín (Nacho), Nemo, Fomega, Paloma (Emilio), Tía (Juan).

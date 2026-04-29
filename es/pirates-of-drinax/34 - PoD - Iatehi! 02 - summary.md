@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el formato solicitado y en castellano de España.
-
 # La Asamblea de los Ihatei en Kteiroa
 
 **PJs presentes**

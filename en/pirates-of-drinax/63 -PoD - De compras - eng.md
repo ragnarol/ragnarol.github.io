@@ -1,5 +1,3 @@
-Here is the summary of the session based on the provided transcript:
-
 # Session Title: Logistics, Purchases, and the Divided Fleet
 
 **PCs Present:** Lyra, Fenix, Clayton, Daijiro, Yaang-ki, Pika

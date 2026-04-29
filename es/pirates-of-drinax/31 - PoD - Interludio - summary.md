@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el formato y las restricciones solicitadas:
-
 # Logística, Política y el Destino de los Prisioneros
 
 **PJs presentes:** Nemo (Capitán), Paloma, Emilio, Jimmy, Fermín, Goran, Tia.

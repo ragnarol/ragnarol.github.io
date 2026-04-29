@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada.
-
 # Supervivencia en el Continente Prohibido
 
 **PCs presentes**

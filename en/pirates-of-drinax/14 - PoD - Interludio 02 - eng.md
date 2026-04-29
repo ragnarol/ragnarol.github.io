@@ -1,5 +1,3 @@
-Here is the summary of the game session based on the provided transcript.
-
 # Session Title: New Blood and Old Grudges
 
 **PCs Present:**

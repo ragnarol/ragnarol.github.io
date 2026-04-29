@@ -1,5 +1,3 @@
-Here is the summary of the session based on the provided transcript, using the requested format and in Spanish from Spain.
-
 # Session Title: The Fog's Threshold
 
 **PCs present:**

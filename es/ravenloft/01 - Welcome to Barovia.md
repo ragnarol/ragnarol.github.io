@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada, utilizando el formato solicitado y en castellano de España.
-
 # Título de la Sesión: El Umbral de la Niebla
 
 **PCs presentes:**

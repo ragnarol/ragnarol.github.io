@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el formato solicitado:
-
 # Infiltración en la Fortaleza Planetaria
 
 **PJs presentes**

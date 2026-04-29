@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada.
-
 # Sombras en el Búnker y Fuego en el Maizal
 
 **PJs presentes:**

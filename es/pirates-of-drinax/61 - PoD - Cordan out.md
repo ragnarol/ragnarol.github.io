@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el formato solicitado y en castellano de España.
-
 # Arde Cordán: Gallinas, Fuego y Marquesados
 
 **PJs presentes:** Lyra, Kleiton, Daijiro. (Al final de la sesión se unen al resto de la flota y aparece el PJ de Nemo).

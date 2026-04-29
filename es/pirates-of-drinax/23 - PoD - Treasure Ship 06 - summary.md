@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el formato y las restricciones solicitadas.
-
 # Título de la Sesión: Dilemas Diplomáticos y el Complot del Diente de Hierro
 
 **PJs presentes**

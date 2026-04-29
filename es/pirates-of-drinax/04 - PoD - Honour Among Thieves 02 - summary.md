@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basándome estrictamente en la transcripción proporcionada, utilizando el formato solicitado y en castellano de España.
-
 # Título de la Sesión: Pistas en el Paraíso y el Salto a Borite
 
 **PJs presentes:**

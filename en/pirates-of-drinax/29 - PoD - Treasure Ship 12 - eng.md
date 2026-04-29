@@ -1,5 +1,3 @@
-Here is the summary of the session based on the provided transcript.
-
 # Session Title: The Great Heist: The Capture of the Martin II
 
 **Player Characters Present:**

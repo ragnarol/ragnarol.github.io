@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el formato solicitado y utilizando castellano de España.
-
 # La Banshee y los Primeros Pasos
 
 **PJs presentes:** Nemo, Paloma, Pika (Jane), Personaje de Juan (Yankee/Soldado), Personaje de Álvaro (mencionado).

@@ -1,5 +1,3 @@
-Here is the summary of the session based strictly on the provided transcript, using the requested format and in Spanish from Spain.
-
 # Session Title: Clues in Paradise and the Jump to Borite
 
 **PJs present:**

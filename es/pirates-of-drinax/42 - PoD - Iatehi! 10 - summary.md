@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada.
-
 # Título de la Sesión: Huida de Kteiroa y Orígenes Dispares
 
 **PJs presentes:**

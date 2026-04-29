@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada.
-
 # Título de la Sesión: Diplomacia en Borite y Terror en el Vacío
 
 **PJs presentes**

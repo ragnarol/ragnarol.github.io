@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada.
-
 # Protocolo Aslan en Kteiroa
 
 **PJs presentes:** Ondo, Paloma, Jay, Goran, Nemo, Fermín.

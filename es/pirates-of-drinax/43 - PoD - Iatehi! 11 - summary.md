@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada:
-
 # Título de la Sesión: Sangre en el Salto y Destinos Cruzados
 
 **PJ presentes**

@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el formato solicitado y en castellano de España.
-
 # Título de la Sesión: Asedio Nocturno en las Ruinas de Marduk
 
 **PJs presentes:**

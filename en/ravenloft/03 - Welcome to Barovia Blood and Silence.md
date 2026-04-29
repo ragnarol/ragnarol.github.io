@@ -1,5 +1,3 @@
-Here is the summary of the session based on the provided transcript:
-
 # Welcome to Barovia: Blood and Silence
 
 **PCs present:**

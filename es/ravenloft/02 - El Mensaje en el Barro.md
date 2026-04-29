@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada, siguiendo el formato solicitado y en castellano de España.
-
 # Sesión: El Mensaje en el Barro
 
 **PJs presentes:**

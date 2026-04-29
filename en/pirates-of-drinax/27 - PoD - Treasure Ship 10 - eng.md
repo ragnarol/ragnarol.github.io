@@ -1,5 +1,3 @@
-Here is the summary of the game session based on the provided transcript:
-
 # Ambush in the Graveyard and Secrets of the Martin II
 
 **PCs present**

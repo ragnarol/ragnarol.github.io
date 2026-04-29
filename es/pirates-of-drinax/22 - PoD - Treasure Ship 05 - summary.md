@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada:
-
 # Título de la Sesión: Infiltración, Química y la Sombra de los Piratas
 
 **PJs presentes:** Paloma, Fomega (James Hondo), Emilio, Nemo (Ondo/Almirante Darokin disfrazado), Fermín, Nacho (Jimmy).

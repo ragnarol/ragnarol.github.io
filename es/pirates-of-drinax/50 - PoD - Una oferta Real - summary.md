@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el formato y las restricciones solicitadas, en castellano de España.
-
 # Sesión: El Asedio de Drinax y la Última Patente
 
 **PJs presentes**

@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el formato solicitado:
-
 # Sangre en Kteiroa y Jardines Genéticos
 
 **PJs presentes:** Goran, Fermín, Pika, Nemo, Fomega.

@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada:
-
 # Título de la Sesión: Logística, Compras y la Flota Dividida
 
 **PJs presentes:** Lyra, Fénix, Clayton, Daijiro, Yaang-ki, Pika

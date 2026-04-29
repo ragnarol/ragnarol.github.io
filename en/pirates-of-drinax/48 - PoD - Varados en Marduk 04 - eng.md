@@ -1,5 +1,3 @@
-Here is the summary of the session based on the provided transcript:
-
 # Escape from Marduk's Ruins
 
 **PCs present:**

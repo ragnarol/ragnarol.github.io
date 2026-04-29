@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada.
-
 # Diplomacia de Guerra y Nuevos Horizontes
 
 **PJs presentes:** Goran, Pika, Yankee Foo, PJ de Nemo (Diplomático).

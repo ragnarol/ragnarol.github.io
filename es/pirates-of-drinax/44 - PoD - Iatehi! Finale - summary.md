@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión de juego basado en la transcripción proporcionada.
-
 # Muerte en el Salto y el Renacer de la Tripulación
 
 **PJs presentes:**

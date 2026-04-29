@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el formato y las instrucciones solicitadas:
-
 # Operación Tesoro: Infiltración en el Martin II
 
 **PJ presentes**

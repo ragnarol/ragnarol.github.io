@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el formato solicitado:
-
 # Alianzas Peligrosas y Mercancías Ocultas
 
 **PCs presentes**

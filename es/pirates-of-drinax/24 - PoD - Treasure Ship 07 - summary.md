@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el formato solicitado:
-
 # Operación Anestesia y Tacos en Arunisiir
 
 **PJs presentes**

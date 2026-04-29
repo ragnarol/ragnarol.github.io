@@ -1,5 +1,3 @@
-Here is the summary of the session based on the provided transcript:
-
 # Fire on Drinax and Shadows on Cordan
 
 **PCs present**

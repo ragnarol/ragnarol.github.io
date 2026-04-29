@@ -1,5 +1,3 @@
-Here is the summary of the session based on the provided transcript:
-
 # Session Title: Alliance at The Skull and the Hunt in Palindrome
 
 **PCs present:**

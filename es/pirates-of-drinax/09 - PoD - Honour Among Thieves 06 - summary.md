@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado estrictamente en la transcripción proporcionada.
-
 # Pacto de Sangre en la Chatarrería
 
 **PJs presentes:** Nemo (Capitán), Jimmy (infiltrador, jugado por Juan), Paloma, Honor (jugada por Rocío), Pika (comunicaciones, jugado por Emilio). También se menciona a Krrsh.

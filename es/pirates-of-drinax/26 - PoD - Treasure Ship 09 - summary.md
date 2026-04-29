@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada.
-
 # Caos, Estimulantes y una Corte Marcial
 
 **PJs presentes:** Juan, Nemo, Fermín, Paloma, Emilio, Tía (Rocío), Fomega (James/Álvaro).

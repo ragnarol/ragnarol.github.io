@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada:
-
 # Fuego en Drinax y Sombras en Cordan
 
 **PJs presentes**

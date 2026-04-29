@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada.
-
 # El Botín Imperial y el Regreso a Drinax
 
 **PJs presentes:**

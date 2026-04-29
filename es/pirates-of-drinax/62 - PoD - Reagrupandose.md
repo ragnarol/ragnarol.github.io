@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el patrón solicitado y en castellano de España.
-
 # Cuentas Claras y Naves Rotas
 
 **PJs presentes:** Honor Boone, Daijiro, Pika, (PJs de Nemo y Nacho).

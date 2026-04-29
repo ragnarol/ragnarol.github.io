@@ -1,5 +1,3 @@
-Here is the summary of the session structured and written in Spanish from Spain, extracting only the information provided in the transcript:
-
 # Session Summary: Ravenloft's Crossroads: Invitations and Bats
 
 **PCs present:** Broseph (Juan Maldonado), Ceres (Paloma), Pulgar (Juan Casanova), Ladril Gabriel (Álvaro), Erdan (Marcos), Feyre (Rocío - *mentioned/in horse form*).

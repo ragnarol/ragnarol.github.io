@@ -1,5 +1,3 @@
-Here is the summary of the session based on the provided transcript:
-
 # Session Title: Infiltration, Chemistry, and the Shadow of Pirates
 
 **PCs present:** Paloma, Fomega (James Hondo), Emilio, Nemo (Ondo/Admiral Darokin in disguise), Fermín, Nacho (Jimmy).

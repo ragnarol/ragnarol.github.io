@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada.
-
 # Logística de Guerra y Diplomacia en el Borde
 
 **PJ presentes:**

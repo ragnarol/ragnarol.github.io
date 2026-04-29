@@ -1,5 +1,3 @@
-Here is the summary of the session based on the provided transcript.
-
 # Chaos, Stimulants, and a Court Martial
 
 **PCs present:** Juan, Nemo, Fermín, Paloma, Emilio, Aunt (Rocío), Fomega (James/Álvaro).

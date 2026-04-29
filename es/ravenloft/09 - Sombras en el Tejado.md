@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo estrictamente tus indicaciones, utilizando el español de España y basándome únicamente en la transcripción proporcionada.
-
 # Título de la Sesión: Sombras en el Tejado y Confesiones en el Altar
 
 **PJs presentes:** Pulgar, Ceres, Hulio, Ladril Gabriel (Sir Gabriel / fomega).

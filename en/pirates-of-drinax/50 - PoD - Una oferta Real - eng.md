@@ -1,5 +1,3 @@
-Here is the summary of the session, structured according to the requested pattern and in Spanish from Spain.
-
 # The Price of the Crown and the Siege of Drinax
 
 **PCs present**

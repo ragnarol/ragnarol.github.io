@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión de juego basado en la transcripción proporcionada:
-
 # Título de la Sesión: La Dama Pirata y el Rastro de Torpol
 
 **PJs presentes:**

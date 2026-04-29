@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el formato solicitado:
-
 # Asalto en Exe y la Sorpresa de Acrid
 
 **PJs presentes:**

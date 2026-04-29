@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión estructurado y redactado en español de España, extrayendo únicamente la información proporcionada en la transcripción:
-
 # Resumen de Sesión: La Encrucijada de Ravenloft: Invitaciones y Murciélagos
 
 **PJs presentes:** Broseph (Juan Maldonado), Ceres (Paloma), Pulgar (Juan Casanova), Ladril Gabriel (Álvaro), Erdan (Marcos), Feyre (Rocío - *mencionada/en forma de caballo*).  

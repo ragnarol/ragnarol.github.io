@@ -1,5 +1,3 @@
-Here is the summary of the session based on the provided transcript:
-
 # Session Title: Blood in the Jump and Crossed Destinies
 
 **PCs present**

@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el formato solicitado, utilizando castellano de España y basado únicamente en la transcripción proporcionada.
-
 # Título de la Sesión: Suministros Nucleares y Propaganda Viral
 
 **PJs presentes:**

@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el formato solicitado y en castellano de España.
-
 # Título de la Sesión: Diplomacia Funeraria y Limpieza de Alimañas
 
 **PJs presentes:**

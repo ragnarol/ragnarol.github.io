@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada.
-
 # Sesión: Infiltrados en Arunisiir
 
 **PJs presentes:** Fomega, Nemo, Paloma (también referida como Pika), Juan Maldonado, Honor (Emilio), Rocío, Nacho (mencionado), Tía (mencionada).

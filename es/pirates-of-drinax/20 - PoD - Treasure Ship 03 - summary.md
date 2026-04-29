@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada, siguiendo el formato y el idioma solicitados.
-
 # Sesión: El Golpe a la Bóveda Imperial
 
 **PJs presentes:** Paloma (Hacker), Rocío (Ingeniera/Social), Honor (Infiltrada), Nemo (Diplomático/Face), Pika (Ingeniero), Tía (Ingeniera), Jane (Ingeniera), Alvarito (Químico/Doctor - mencionado).

@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada, utilizando el formato solicitado y en castellano de España.
-
 # La Patente de Corso y el Legado de Sindal
 
 **PJs presentes**

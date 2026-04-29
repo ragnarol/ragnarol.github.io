@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión de juego basado en la transcripción proporcionada:
-
 # Emboscada en el Camposanto y Secretos de la Martin II
 
 **PJs presentes**

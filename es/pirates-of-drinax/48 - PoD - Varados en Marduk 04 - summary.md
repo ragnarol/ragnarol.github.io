@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada:
-
 # Huida de las Ruinas de Marduk
 
 **PJs presentes:**

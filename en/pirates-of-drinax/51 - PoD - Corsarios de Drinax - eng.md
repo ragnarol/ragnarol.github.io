@@ -1,5 +1,3 @@
-Here is the summary of the session based on the provided transcript.
-
 # War Diplomacy and New Horizons
 
 **PCs present:** Goran, Pika, Yankee Foo, PJ of Nemo (Diplomat).

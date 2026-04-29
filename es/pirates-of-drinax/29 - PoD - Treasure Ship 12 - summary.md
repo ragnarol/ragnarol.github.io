@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada.
-
 # Título de la Sesión: El Gran Golpe: La Captura del Martin II
 
 **PJ presentes:**

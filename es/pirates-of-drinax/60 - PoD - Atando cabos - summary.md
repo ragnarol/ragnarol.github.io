@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el patrón solicitado y en castellano de España.
-
 # El Ermitaño de Cordan y la Ruptura del Asedio
 
 **PJs presentes:** Lyra, Daijiro Yuga (nueva incorporación), Corben (Nemo), Pika, Yankee (liberado al final).

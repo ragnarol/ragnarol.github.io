@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión siguiendo el patrón solicitado y en castellano de España:
-
 # Rescate en la Oscuridad y el Primer Botín
 
 **PJs presentes:** Onor, Pika, Emilio, Nemo (Capitán Jameson Doe), Paloma, Jimmy, Fomega.

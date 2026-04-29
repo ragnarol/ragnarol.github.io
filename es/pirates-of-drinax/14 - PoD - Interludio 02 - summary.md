@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión de juego basado en la transcripción proporcionada.
-
 # Título de la Sesión: Sangre Nueva y Viejas Quejas
 
 **PJ presentes:**

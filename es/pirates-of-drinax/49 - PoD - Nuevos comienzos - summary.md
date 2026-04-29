@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión basado en la transcripción proporcionada.
-
 # Negocios, Barbetas y Pescado en Marduk
 
 **PJs presentes:** Yankee Fu, Paloma (Lyra), Jimmy, Nemo, Phoenix Corbin.

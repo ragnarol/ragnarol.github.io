@@ -1,5 +1,3 @@
-Here is the summary of the game session based on the provided transcript.
-
 # Death in the Jump and the Crew's Rebirth
 
 **PJs Present:**

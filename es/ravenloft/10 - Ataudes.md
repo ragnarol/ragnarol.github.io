@@ -1,5 +1,3 @@
-Aquí tienes el resumen de la sesión adaptado al castellano de España, siguiendo estrictamente el formato y la información proporcionada en la transcripción.
-
 # Cena con Traición y Huesos en la Noche
 
 **PCs presentes:** Pulgar, Ceres, Broseph, Feyre, Hulio, Erdan, Renoir (Yankee/Nacho).
