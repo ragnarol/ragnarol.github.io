@@ -33,17 +33,26 @@ namespace FadingSuns.Dialogue
 
         public void StartConversation(NPC npc)
         {
-            if (npc.npcData == null || npc.npcData.dialogueProfile == null) return;
+            string npcId = npc.NpcId;
+            DialogueProfile profile = npc.npcData?.dialogueProfile
+                ?? DialogueLoader.Instance?.GetProfile(npcId);
+
+            if (profile == null)
+            {
+                Debug.LogWarning($"[Dialogue] No dialogue profile found for '{npcId}'. " +
+                    "Check NPC Id Override or assign NPCData.");
+                return;
+            }
 
             activeNPC = npc;
-            activeProfile = npc.npcData.dialogueProfile;
+            activeProfile = profile;
             revealedKeywords.Clear();
 
             // Track that the player has spoken with this NPC
-            var rel = WorldState.Instance.GetNPCRelationship(npc.npcData.npcId);
+            var rel = WorldState.Instance.GetNPCRelationship(npcId);
             rel.hasSpoken = true;
 
-            string greeting = GetGreeting(npc.npcData.npcId);
+            string greeting = GetGreeting(npcId);
 
             // Always available keywords
             revealedKeywords.Add("name");

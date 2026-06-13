@@ -9,6 +9,9 @@ namespace FadingSuns.Characters
     {
         [Header("NPC Data")]
         public NPCData npcData;
+        [SerializeField] private string npcIdOverride; // Set this if npcData is not assigned
+
+        public string NpcId => npcData != null ? npcData.npcId : npcIdOverride;
 
         [Header("AI State")]
         public NPCState currentState = NPCState.Idle;
