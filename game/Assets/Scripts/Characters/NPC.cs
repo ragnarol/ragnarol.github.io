@@ -1,6 +1,7 @@
 using UnityEngine;
 using FadingSuns.Data;
 using FadingSuns.Core;
+using FadingSuns.World;
 
 namespace FadingSuns.Characters
 {

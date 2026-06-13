@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using System.Collections.Generic;
 using FadingSuns.Data;
+// Alias to disambiguate from UnityEngine.Tilemaps.TileData added in Unity 6
+using GameTileData = FadingSuns.Data.TileData;
 
 namespace FadingSuns.World
 {
@@ -18,8 +20,8 @@ namespace FadingSuns.World
         public Tilemap overlayLayer;  // Highlights, cursors
 
         [Header("Tile Definitions")]
-        [SerializeField] private List<TileData> tileDefinitions = new();
-        private Dictionary<string, TileData> tileById = new();
+        [SerializeField] private List<GameTileData> tileDefinitions = new();
+        private Dictionary<string, GameTileData> tileById = new();
 
         // Runtime walkability overrides (e.g. an NPC blocking a tile)
         private HashSet<Vector3Int> dynamicBlocked = new();

@@ -13,34 +13,34 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  -
+  - ''
   - Water
   - UI
-  -
-  -
+  - ''
+  - ''
   - Ground
   - Objects
   - NPCs
   - Player
   - Enemies
   - Interactables
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
-  -
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   m_SortingLayers:
   - name: Default
     uniqueID: 0
