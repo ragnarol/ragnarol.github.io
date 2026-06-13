@@ -1,4 +1,4 @@
-# Fading Suns RPG — Asset Downloader (Windows PowerShell)
+# Fading Suns RPG - Asset Downloader (Windows PowerShell)
 # Run from the repo root:
 #   .\game\tools\download_assets.ps1
 
@@ -45,24 +45,25 @@ $Assets = @(
        Url="https://kenney.nl/media/pages/assets/sci-fi-sounds/7c1b5ceedd-1699889348/kenney_sci-fi-sounds.zip" }
 )
 
-$ImageExt = @(".png",".jpg")
-$AudioExt = @(".ogg",".wav",".mp3",".aiff")
+$ImageExt = @(".png", ".jpg")
+$AudioExt = @(".ogg", ".wav", ".mp3", ".aiff")
 $AllExt   = $ImageExt + $AudioExt
 
 $Failed    = @()
 $Succeeded = @()
 
-Write-Host "=" * 60
-Write-Host "Fading Suns RPG — Asset Downloader (PowerShell)"
-Write-Host "=" * 60
+$Sep = "-" * 60
+Write-Host $Sep
+Write-Host "Fading Suns RPG - Asset Downloader (PowerShell)"
+Write-Host $Sep
 
 foreach ($Asset in $Assets) {
     $ZipPath = Join-Path $TmpDir ($Asset.Name + ".zip")
     $DestDir = $Destinations[$Asset.Dest]
 
     Write-Host ""
-    Write-Host "[CC0] $($Asset.Name)"
-    Write-Host "  -> $($DestDir.Replace($GameRoot + '\', ''))"
+    Write-Host ("[CC0] " + $Asset.Name)
+    Write-Host ("  -> " + $DestDir.Replace($GameRoot + "\", ""))
 
     # Download
     if (-not (Test-Path $ZipPath)) {
@@ -72,23 +73,26 @@ foreach ($Asset in $Assets) {
             $wc.Headers.Add("User-Agent", "FadingSunsAssetDownloader/1.0")
             $wc.DownloadFile($Asset.Url, $ZipPath)
             Write-Host "  Downloaded OK"
-        } catch {
-            Write-Host "  FAILED: $_"
+        }
+        catch {
+            Write-Host ("  FAILED: " + $_)
             Write-Host "  -> Visit https://kenney.nl to download manually."
             $Failed += $Asset.Name
             continue
         }
-    } else {
+    }
+    else {
         Write-Host "  (cached)"
     }
 
-    # Extract image/audio files only, flattened
+    # Extract image/audio files only, flattened into destination folder
     try {
         Add-Type -AssemblyName System.IO.Compression.FileSystem
         $zip = [System.IO.Compression.ZipFile]::OpenRead($ZipPath)
         foreach ($entry in $zip.Entries) {
             $ext = [System.IO.Path]::GetExtension($entry.Name).ToLower()
             if ($AllExt -notcontains $ext) { continue }
+            if ($entry.Name -eq "") { continue }
             $target = Join-Path $DestDir $entry.Name
             if (Test-Path $target) { continue }
             [System.IO.Compression.ZipFileExtensions]::ExtractToFile($entry, $target, $false)
@@ -96,16 +100,18 @@ foreach ($Asset in $Assets) {
         $zip.Dispose()
         Write-Host "  Extracted OK"
         $Succeeded += $Asset.Name
-    } catch {
-        Write-Host "  Extract error: $_"
+    }
+    catch {
+        Write-Host ("  Extract error: " + $_)
         $Failed += $Asset.Name
     }
 }
 
 Write-Host ""
-Write-Host "=" * 60
-Write-Host "Done. $($Succeeded.Count) succeeded, $($Failed.Count) failed."
+Write-Host $Sep
+Write-Host ("Done. " + $Succeeded.Count + " succeeded, " + $Failed.Count + " failed.")
+
 if ($Failed.Count -gt 0) {
-    Write-Host "Failed: $($Failed -join ', ')"
-    Write-Host "Download these manually from https://kenney.nl/assets"
+    Write-Host ("Failed: " + ($Failed -join ", "))
+    Write-Host "Download these manually from: https://kenney.nl/assets"
 }

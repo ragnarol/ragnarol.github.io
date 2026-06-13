@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Fading Suns RPG — Asset Download Script
+Fading Suns RPG - Asset Download Script
 Run this once on your own machine from the repo root:
     python3 game/tools/download_assets.py
 
