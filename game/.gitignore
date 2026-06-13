@@ -61,3 +61,14 @@ crashlytics-build.properties
 # OS
 .DS_Store
 Thumbs.db
+
+# Downloaded third-party assets (run game/tools/download_assets.py to populate)
+# Sprites — Kenney CC0 packs
+Assets/Sprites/Tiles/
+Assets/Sprites/Characters/
+Assets/Sprites/UI/
+# Audio — Kenney CC0 packs
+Assets/Audio/
+# Download script temp files
+tools/_tmp/
+tools/asset_manifest.json
