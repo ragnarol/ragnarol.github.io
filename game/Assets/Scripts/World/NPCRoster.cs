@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using FadingSuns.Characters;
 using FadingSuns.Data;
 using FadingSuns.Core;
+using FadingSuns.Dialogue;
 
 namespace FadingSuns.World
 {
@@ -45,6 +46,13 @@ namespace FadingSuns.World
 
                 if (entry.data.animatorController != null)
                     go.GetComponent<Animator>().runtimeAnimatorController = entry.data.animatorController;
+
+                // Attach dialogue profile from JSON if available
+                if (entry.data.dialogueProfile == null && DialogueLoader.Instance != null)
+                {
+                    var profile = DialogueLoader.Instance.GetProfile(entry.data.npcId);
+                    if (profile != null) entry.data.dialogueProfile = profile;
+                }
 
                 spawnedNPCs[entry.data.npcId] = npc;
             }

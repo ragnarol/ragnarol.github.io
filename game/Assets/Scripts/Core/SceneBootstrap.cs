@@ -18,6 +18,7 @@ namespace FadingSuns.Core
         public GameObject itemManagerPrefab;
         public GameObject saveSystemPrefab;
         public GameObject audioManagerPrefab;
+        public GameObject dialogueLoaderPrefab;
 
         [Header("Start")]
         [Tooltip("Scene name to load after bootstrap")]
@@ -33,6 +34,7 @@ namespace FadingSuns.Core
             SpawnIfAbsent<Occult.OccultSystem>(occultSystemPrefab);
             SpawnIfAbsent<ItemManager>(itemManagerPrefab);
             SpawnIfAbsent<SaveSystem>(saveSystemPrefab);
+            SpawnIfAbsent<Dialogue.DialogueLoader>(dialogueLoaderPrefab);
         }
 
         void Start()

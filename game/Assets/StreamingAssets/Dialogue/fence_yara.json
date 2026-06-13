@@ -1,0 +1,66 @@
+{
+  "npcId": "fence_yara",
+  "greetingDefault": "Buying, selling, or just looking? Looking's free. Everything else costs.",
+  "greetingFriendly": "Back again! Good. I've got something you'll want to see.",
+  "greetingHostile": "You've got nerve coming back here. What do you want?",
+  "farewellDefault": "Come back when your pockets are fuller.",
+  "unknownKeywordResponse": "Never heard of it. Which might mean I have, and I'm being careful.",
+  "keywords": [
+    {
+      "keyword": "name",
+      "aliases": [],
+      "response": "Yara. Just Yara. Names are assets — I don't give mine away.",
+      "grantsKeywords": ["job", "sell", "buy"]
+    },
+    {
+      "keyword": "job",
+      "aliases": ["work", "sell", "trade"],
+      "response": "I deal in curiosities. Things that find their way to me by various routes and find their way to new owners by various other routes. I ask few questions. That's worth paying for.",
+      "grantsKeywords": ["curiosities", "questions", "pay"]
+    },
+    {
+      "keyword": "curiosities",
+      "aliases": ["goods", "wares", "items"],
+      "response": "Depends what you need. I've got salvage from the wilderness, items of uncertain Church legality, information, and a very nice alien artefact I'd sell at a loss just to stop having to store it.",
+      "grantsKeywords": ["wilderness", "church", "information", "artefact", "alien"]
+    },
+    {
+      "keyword": "information",
+      "aliases": ["rumour", "news", "intel"],
+      "response": "Information costs more than goods, because goods can be replaced. Word is — and this costs you two firebirds — the serfs going missing near the old ruins aren't the first. There were disappearances fifteen years ago too. Different Baron, same ruins.",
+      "grantsKeywords": ["serfs", "ruins", "fifteen", "history"],
+      "requiredFlag": "rumour_keyword_unlocked"
+    },
+    {
+      "keyword": "orlan",
+      "aliases": ["guild", "league"],
+      "response": "Blue lamp is lit, you say? Ha. Orlan thinks he keeps his distance from me. He doesn't. But I keep his distance for him, which amounts to the same thing. What does he need moved?",
+      "requiredFlag": "yara_introduced",
+      "grantsKeywords": ["moved", "cargo"]
+    },
+    {
+      "keyword": "artefact",
+      "aliases": ["alien artefact", "alien item"],
+      "response": "Ur-Obun piece. Found near the old stone circle. Hums faintly, which I find unsettling. The Church would confiscate it and call it heresy. A Psi-sensitive might find it... useful. Fifty firebirds and it's yours.",
+      "grantsKeywords": ["psi", "stone_circle", "hum"]
+    },
+    {
+      "keyword": "ruins",
+      "aliases": ["stone_circle", "old ruins"],
+      "response": "The old stone circle in the wilderness? I'd avoid it at night if I were you. My supplier stopped coming through there last week. The one before him too, actually. I've started using a different route.",
+      "grantsKeywords": ["wilderness", "night", "route", "supplier"]
+    },
+    {
+      "keyword": "underworld",
+      "aliases": ["criminal", "crime", "thieves"],
+      "response": "Big word. I prefer 'informal economy.' The city has one. Every city does. I am a small part of it. The part that doesn't hurt people — that's important to me.",
+      "grantsKeywords": ["economy", "city"]
+    },
+    {
+      "keyword": "bye",
+      "aliases": ["farewell", "goodbye", "leave"],
+      "response": "Come back when your pockets are fuller. Or when you've found something interesting.",
+      "endsConversation": true
+    }
+  ]
+}

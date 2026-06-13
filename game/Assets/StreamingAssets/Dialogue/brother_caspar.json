@@ -1,0 +1,101 @@
+{
+  "npcId": "brother_caspar",
+  "greetingDefault": "The Pancreator's grace be upon you, traveller. I am Brother Caspar. How may I serve?",
+  "greetingFriendly": "Ah, my friend! The light of the Pancreator shines on us both today. What brings you to me?",
+  "greetingHostile": "I know what you think of me. But the Pancreator teaches patience. Speak your piece.",
+  "farewellDefault": "Go with the light of the Pancreator. These are dark times — stay wary.",
+  "unknownKeywordResponse": "I know little of that, I'm afraid. Ask me of my work, my faith, or the people of this city.",
+  "keywords": [
+    {
+      "keyword": "name",
+      "aliases": [],
+      "response": "I am Brother Caspar — though 'Brother' is more habit than title now. The Church has... distanced itself from my methods.",
+      "grantsKeywords": ["church", "methods", "job"]
+    },
+    {
+      "keyword": "job",
+      "aliases": ["work", "occupation", "do"],
+      "response": "I tend the sick and hear confessions of those the Church will not visit. The poor, the alien, the outcast. The Pancreator did not distinguish — neither shall I.",
+      "grantsKeywords": ["sick", "pancreator", "alien", "church"]
+    },
+    {
+      "keyword": "church",
+      "aliases": ["faith", "religion"],
+      "response": "The Universal Church is our light in dark times. Though I fear the Institution and the Faith have grown... different things. Inquisitor Harkan is the Institution. I try to be the Faith.",
+      "grantsKeywords": ["inquisitor", "harkan", "theurgy"]
+    },
+    {
+      "keyword": "harkan",
+      "aliases": ["inquisitor"],
+      "response": "Harkan watches for tech heresy and occult transgression. He is not cruel — he is thorough, which is worse. If you carry anything the Church would call sinful, keep it out of sight at the Spaceport.",
+      "grantsKeywords": ["tech", "occult", "spaceport"]
+    },
+    {
+      "keyword": "theurgy",
+      "aliases": ["rite", "rites", "ritual"],
+      "response": "I practise the healing rites — Laying on Hands, the Ward. Nothing dramatic. The power comes from faith, not from the Avestite's fire.",
+      "grantsKeywords": ["healing", "pancreator"]
+    },
+    {
+      "keyword": "alien",
+      "aliases": ["aliens", "vorox", "obun"],
+      "response": "Grr'kash works the docks at the Spaceport. A Vorox — enormous, proud, and wiser than people give him credit. He has helped me more than once. And there is a sage in the wilderness, an Ur-Obun elder called Sila. She knows things about this planet that no human text records.",
+      "grantsKeywords": ["grrkash", "sila", "spaceport", "wilderness"]
+    },
+    {
+      "keyword": "grrkash",
+      "aliases": [],
+      "response": "Grr'kash keeps to himself but he's not unfriendly — if you prove you're not afraid of him. He's at the Spaceport docks most mornings. The Pancreator made all peoples, stranger — that includes the Vorox.",
+      "grantsKeywords": ["spaceport", "docks"],
+      "requiredFlag": ""
+    },
+    {
+      "keyword": "sila",
+      "aliases": [],
+      "response": "Elder Sila lives in the ruins beyond the city walls. She is Ur-Obun — one of the eldest alien peoples. She sees things others cannot. If the old ruins trouble you, seek her.",
+      "grantsKeywords": ["wilderness", "ruins"]
+    },
+    {
+      "keyword": "sick",
+      "aliases": ["ill", "plague", "disease"],
+      "response": "There is a fever in the lower quarter. Three families now. The city guard calls it nothing. I call it spreading. I need alovera root — grows in the wilderness — to make the remedy. I cannot leave my patients to find it.",
+      "grantsKeywords": ["remedy", "alovera", "wilderness", "lower_quarter"],
+      "setsFlag": "caspar_quest_offered"
+    },
+    {
+      "keyword": "remedy",
+      "aliases": ["medicine", "cure"],
+      "response": "Alovera root, ground with salt and boiled with clean water. Simple enough — if you can find the root. It grows near the old stone formations in the wilderness. Will you fetch it for me?",
+      "requiredFlag": "caspar_quest_offered",
+      "grantsKeywords": ["alovera", "wilderness"]
+    },
+    {
+      "keyword": "pancreator",
+      "aliases": ["god", "faith"],
+      "response": "The Pancreator is the one who made all things, and to whom all things return. The suns fade, yes — but even darkness has its place in the Pancreator's design. Or so I tell myself on the hard nights.",
+      "grantsKeywords": ["suns", "darkness"]
+    },
+    {
+      "keyword": "suns",
+      "aliases": ["stars", "sun", "fading"],
+      "response": "Yes. The suns grow dimmer. Every generation the charts record it. The Church says it is the Pancreator's test. Others say it is something we did — or something done to us. I do not know. But it frightens me.",
+      "grantsKeywords": ["church", "pancreator"]
+    },
+    {
+      "keyword": "join",
+      "aliases": ["travel", "party", "companion", "come"],
+      "response": "If the Pancreator wills it, I shall accompany you. My patients here are stable for now, and you seem to need someone who can keep you alive. Very well — I am yours to command, within reason.",
+      "requiredMilestone": "first_contact",
+      "setsFlag": "caspar_joined",
+      "reputationDelta": 10,
+      "reputationFactionTarget": "UniversalChurch",
+      "endsConversation": false
+    },
+    {
+      "keyword": "bye",
+      "aliases": ["farewell", "goodbye", "leave"],
+      "response": "Go with the light of the Pancreator.",
+      "endsConversation": true
+    }
+  ]
+}

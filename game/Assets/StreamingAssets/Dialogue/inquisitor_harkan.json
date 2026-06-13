@@ -1,0 +1,79 @@
+{
+  "npcId": "inquisitor_harkan",
+  "greetingDefault": "I know who you are. Strangers who ask too many questions are a category of person I watch closely. Speak.",
+  "greetingFriendly": "You have been useful to the Church. That earns you my time. What do you need?",
+  "greetingHostile": "You stand before an Inquisitor of the Universal Church. Choose your next words with great care.",
+  "farewellDefault": "The Pancreator sees all things. Including this conversation.",
+  "unknownKeywordResponse": "I have no interest in that topic. Ask me something relevant.",
+  "keywords": [
+    {
+      "keyword": "name",
+      "aliases": [],
+      "response": "Harkan. Inquisitor, Second Rank, appointed by the See of Aragon. My authority on this world is second only to the Archbishop — who is conveniently off-world. So in practice, first.",
+      "grantsKeywords": ["inquisitor", "authority", "archbishop", "job"]
+    },
+    {
+      "keyword": "job",
+      "aliases": ["work", "occupation"],
+      "response": "I investigate. Heresy, tech violations, occult transgression. I determine what is clean and what is rot. Then I cut out the rot.",
+      "grantsKeywords": ["heresy", "tech", "occult", "rot"]
+    },
+    {
+      "keyword": "heresy",
+      "aliases": ["tech_heresy", "sin"],
+      "response": "The Church names three great heresies: the worship of false gods, the unlicensed use of technology beyond your station, and the practice of unsanctioned occultism. I am concerned with all three on Aragon. Particularly the third.",
+      "grantsKeywords": ["occult", "technology", "aragon", "antinomy"]
+    },
+    {
+      "keyword": "occult",
+      "aliases": ["psi", "psionics", "psychic"],
+      "response": "Psi is tolerated — barely — when registered with the Church. Theurgy is holy, when practised by the ordained. Antinomy is never tolerated. There are signs of Antinomist activity in the wilderness. This concerns me greatly.",
+      "grantsKeywords": ["antinomy", "wilderness", "signs", "registered"]
+    },
+    {
+      "keyword": "antinomy",
+      "aliases": ["antinomist", "chaos"],
+      "response": "Antinomy is the occult of entropy — power drawn from the unravelling of order itself. It is not merely sinful. It is dangerous in a way most people cannot comprehend. Those who practise it do not age well.",
+      "grantsKeywords": ["wilderness", "entropy"]
+    },
+    {
+      "keyword": "wilderness",
+      "aliases": ["ruins", "outside"],
+      "response": "The ruins beyond the city walls predate human settlement on Aragon. The Ur-Obun know them better than we do. Recently there have been lights at night — and two serfs have gone missing near the old stone circle. I need eyes I can trust out there.",
+      "grantsKeywords": ["ruins", "obun", "sila", "lights", "serfs"],
+      "setsFlag": "harkan_quest_offered"
+    },
+    {
+      "keyword": "investigate",
+      "aliases": ["help", "assist"],
+      "response": "If you are willing to investigate the stone circle and report what you find, I will ensure the Church opens certain doors for you. The Palace, specifically. The Baron listens to us when it suits him.",
+      "requiredFlag": "harkan_quest_offered",
+      "setsFlag": "church_investigation_started",
+      "grantsKeywords": ["baron", "palace", "stone_circle"]
+    },
+    {
+      "keyword": "sila",
+      "aliases": ["obun", "alien sage"],
+      "response": "The Ur-Obun elder in the wilderness. I have spoken with her twice. She is... not an enemy. But she is not forthcoming. She knows what those ruins once were. I believe she is protecting that knowledge.",
+      "grantsKeywords": ["ruins", "knowledge", "protecting"]
+    },
+    {
+      "keyword": "technology",
+      "aliases": ["tech", "machine", "weapon"],
+      "response": "Technology beyond your feudal station is a violation of Church law. Energy weapons, advanced computing, unlicensed cybernetics. The League smuggles such things through this port constantly. Orlan and I understand each other — for now.",
+      "grantsKeywords": ["orlan", "league", "energy", "port"]
+    },
+    {
+      "keyword": "pancreator",
+      "aliases": ["god", "faith"],
+      "response": "The Pancreator is not a question. The Pancreator is the answer. Questions are what I'm here for.",
+      "grantsKeywords": ["church"]
+    },
+    {
+      "keyword": "bye",
+      "aliases": ["farewell", "goodbye", "leave"],
+      "response": "The Pancreator sees all things. Including this conversation.",
+      "endsConversation": true
+    }
+  ]
+}

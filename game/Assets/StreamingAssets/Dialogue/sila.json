@@ -1,0 +1,75 @@
+{
+  "npcId": "sila",
+  "greetingDefault": "You have come far to find me. Either you are curious or desperate. Both are acceptable.",
+  "greetingFriendly": "I wondered when you would return. Sit. The light is different today — did you notice?",
+  "greetingHostile": "You carry hostility in your posture. Set it down before we speak. It will only tire you.",
+  "farewellDefault": "Walk carefully. The land here remembers more than people think.",
+  "unknownKeywordResponse": "That thought has not found its shape yet. Ask differently.",
+  "keywords": [
+    {
+      "keyword": "name",
+      "aliases": [],
+      "response": "I am Sila. Elder of the Ur-Obun settlement that no longer exists. I remained when the others left. The ruins remember, and someone should remember with them.",
+      "grantsKeywords": ["ruins", "settlement", "remember", "left", "job"]
+    },
+    {
+      "keyword": "job",
+      "aliases": ["purpose", "why", "here"],
+      "response": "I observe. I preserve. I speak when spoken to. The Ur-Obun are a quiet people — we have found that asking questions is safer than answering them, historically.",
+      "grantsKeywords": ["obun", "history", "questions"]
+    },
+    {
+      "keyword": "ruins",
+      "aliases": ["stone circle", "old stones", "structures"],
+      "response": "The stone structures here are not Ur-Obun. They predate us. We called their builders the Anunnari — the 'Before People.' They were here when the Ur-Obun first came to this world. They left suddenly. We have never agreed on why.",
+      "grantsKeywords": ["anunnari", "before", "left", "suddenly", "why"]
+    },
+    {
+      "keyword": "anunnari",
+      "aliases": ["before people", "builders", "ancient"],
+      "response": "The Anunnari worked with resonance — sound, vibration, the same frequencies that Psi-sensitive minds perceive. The stone circle is an instrument of a kind. Dormant for ten thousand years. Something has been... tuning it again.",
+      "grantsKeywords": ["resonance", "psi", "tuning", "dormant", "ten_thousand"]
+    },
+    {
+      "keyword": "disappearances",
+      "aliases": ["missing", "serfs", "people"],
+      "response": "The ones who disappear near the circle — they are not dead. I have looked with the mind's eye. They are... displaced. Somewhere between here and another frequency. The circle draws those who resonate without knowing they resonate.",
+      "grantsKeywords": ["displaced", "frequency", "drawn", "mind_eye"]
+    },
+    {
+      "keyword": "psi",
+      "aliases": ["psychic", "wyrd", "occult"],
+      "response": "The Ur-Obun call it the Subtle Voice. Every thinking being has a small measure of it. Most never hear it. A few hear it clearly. Those few are in danger near the circle right now — it reaches for them.",
+      "grantsKeywords": ["danger", "reaches", "circle"]
+    },
+    {
+      "keyword": "suns",
+      "aliases": ["fading", "sun", "stars"],
+      "response": "The Anunnari knew the suns would fade. It was in their calculations. They were preparing for it when something interrupted them. The circle is part of that preparation — or was meant to be.",
+      "grantsKeywords": ["anunnari", "calculations", "preparing", "interrupted"]
+    },
+    {
+      "keyword": "join",
+      "aliases": ["travel", "companion", "come", "party"],
+      "response": "You ask me to leave the ruins unguarded. This is... a large request. But the circle is waking, and perhaps it is wiser to be near someone who will face it than to watch from the margins. Yes. I will come.",
+      "requiredMilestone": "alien_ruins",
+      "setsFlag": "sila_joined",
+      "reputationDelta": 15,
+      "reputationFactionTarget": "Aliens"
+    },
+    {
+      "keyword": "help",
+      "aliases": ["aid", "assist"],
+      "response": "You wish to help. That is unusual. Go into the circle at midday — when the resonance is lowest. Look for those who do not cast shadows. They are close to displacement. Do not touch them directly; speak to them. Their own voices may anchor them.",
+      "requiredFlag": "sila_quest_offered",
+      "grantsKeywords": ["midday", "shadows", "anchor", "voices"],
+      "setsFlag": "anunnari_quest_started"
+    },
+    {
+      "keyword": "bye",
+      "aliases": ["farewell", "goodbye", "leave"],
+      "response": "Walk carefully. The land here remembers more than people think.",
+      "endsConversation": true
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "milestones": [
+    {
+      "id": "first_contact",
+      "displayName": "First Contact",
+      "description": "You have spoken meaningfully with someone in this city. Word spreads that a stranger asks questions.",
+      "prerequisites": [],
+      "rewards": [
+        { "type": "SetFlag", "stringValue": "rumour_keyword_unlocked" }
+      ]
+    },
+    {
+      "id": "name_in_the_city",
+      "displayName": "A Name in the City",
+      "description": "Your actions have made you known. The city watches you now — some with hope, others with suspicion.",
+      "prerequisites": ["first_contact"],
+      "rewards": [
+        { "type": "UnlockRegion", "stringValue": "Spaceport" },
+        { "type": "UnlockPartySlot" }
+      ]
+    },
+    {
+      "id": "barons_ear",
+      "displayName": "The Baron's Ear",
+      "description": "You have delivered your letter to Baron Alexei and secured his attention. The Palace district is now open to you.",
+      "prerequisites": ["name_in_the_city"],
+      "rewards": [
+        { "type": "UnlockRegion", "stringValue": "Palace" },
+        { "type": "SetFlag", "stringValue": "noble_path_active" }
+      ]
+    },
+    {
+      "id": "inquisitors_test",
+      "displayName": "The Inquisitor's Test",
+      "description": "Inquisitor Harkan has judged you useful. The Palace gates open under Church sponsorship.",
+      "prerequisites": ["name_in_the_city"],
+      "rewards": [
+        { "type": "UnlockRegion", "stringValue": "Palace" },
+        { "type": "SetFlag", "stringValue": "church_path_active" }
+      ]
+    },
+    {
+      "id": "deal_well_made",
+      "displayName": "A Deal Well Made",
+      "description": "The smuggling run succeeded. Orlan is pleased, and you know the black market's back channels.",
+      "prerequisites": ["name_in_the_city"],
+      "rewards": [
+        { "type": "SetFlag", "stringValue": "guild_path_active" },
+        { "type": "SetFlag", "stringValue": "black_market_open" },
+        { "type": "GrantItem", "stringValue": "firebirds_50" }
+      ]
+    },
+    {
+      "id": "alien_ruins",
+      "displayName": "Into the Wilderness",
+      "description": "You have ventured beyond the city walls. Ancient ruins and older secrets wait in the wilderness.",
+      "prerequisites": ["name_in_the_city"],
+      "rewards": [
+        { "type": "UnlockRegion", "stringValue": "Wilderness" },
+        { "type": "UnlockPartySlot" }
+      ]
+    },
+    {
+      "id": "banner_raised",
+      "displayName": "A Banner Raised",
+      "description": "Three companions stand at your side. The suns are fading, but you are not alone.",
+      "prerequisites": ["alien_ruins"],
+      "rewards": [
+        { "type": "UnlockPartySlot" }
+      ]
+    },
+    {
+      "id": "anunnari_revealed",
+      "displayName": "What the Stones Remember",
+      "description": "You have learned the truth of the stone circle and the people who built it. The suns' fading is not random — it is a countdown.",
+      "prerequisites": ["alien_ruins", "barons_ear"],
+      "rewards": [
+        { "type": "SetFlag", "stringValue": "anunnari_known" },
+        { "type": "GrantAbility", "stringValue": "anunnari_resonance" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "npcId": "guildmaster_orlan",
+  "greetingDefault": "Time is firebirds, stranger. State your business.",
+  "greetingFriendly": "Ah — there's a face I trust. Or trust enough. What can the League do for you?",
+  "greetingHostile": "I've heard what you did. Don't waste my time pretending it didn't happen.",
+  "farewellDefault": "Safe travels. And remember — the League remembers its friends.",
+  "unknownKeywordResponse": "That's outside my area of expertise. Ask me about trade, the League, or what's moving through this port.",
+  "keywords": [
+    {
+      "keyword": "name",
+      "aliases": [],
+      "response": "Orlan. Guildmaster Factor for this sector. I speak for the Merchant League on Aragon. Which means I speak for commerce, and commerce speaks for everyone, whether they admit it or not.",
+      "grantsKeywords": ["league", "commerce", "aragon", "job"]
+    },
+    {
+      "keyword": "job",
+      "aliases": ["work", "occupation"],
+      "response": "I keep this port profitable. Ships come, ships go, cargo moves, credits flow. When something disrupts that — bandits, Church embargoes, noble squabbles — I find someone to fix it.",
+      "grantsKeywords": ["cargo", "bandits", "church", "nobles", "port"]
+    },
+    {
+      "keyword": "league",
+      "aliases": ["guild", "merchant", "merchants"],
+      "response": "The Merchant League keeps the Known Worlds fed, clothed, and armed. The nobles fight their wars, the Church saves souls — the League makes sure everyone has enough to eat while they do it. We are not loved, but we are needed.",
+      "grantsKeywords": ["nobles", "church", "trade", "firebirds"]
+    },
+    {
+      "keyword": "trade",
+      "aliases": ["buy", "sell", "market"],
+      "response": "What do you need to move? I have supply lines to six jump gates from here. Legitimate cargo, obviously. For the other kind, talk to Yara in the lower city — I don't know a Yara, officially.",
+      "grantsKeywords": ["yara", "cargo", "jump", "legitimate"]
+    },
+    {
+      "keyword": "cargo",
+      "aliases": ["shipment", "goods"],
+      "response": "I have a shipment stuck at Bay 7. The dockmaster won't clear it without an inspection seal from the Church. Harkan's holding it up deliberately — politics. I need someone to... persuade the inspector that the seal was already processed.",
+      "grantsKeywords": ["harkan", "inspect", "bay", "seal"],
+      "setsFlag": "orlan_quest_offered"
+    },
+    {
+      "keyword": "smuggling",
+      "aliases": ["smuggle", "run"],
+      "response": "That word doesn't exist in my vocabulary. I move goods. Some goods move through unconventional channels. The distinction matters enormously in a court of law.",
+      "requiredFlag": "guild_path_active"
+    },
+    {
+      "keyword": "harkan",
+      "aliases": ["inquisitor", "church"],
+      "response": "Harkan is a problem. He has extended jurisdiction and a nose for anything that benefits the League. Officially, he investigates tech heresy. Unofficially, he is the Noble Houses' pressure valve on our operations.",
+      "grantsKeywords": ["nobles", "tech", "heresy"]
+    },
+    {
+      "keyword": "firebirds",
+      "aliases": ["coin", "money", "currency", "pay"],
+      "response": "Firebirds are the currency of the Known Worlds. Issued by the League, backed by guild reserves. The nobles call it a symbol of our overreach. We call it a symbol of their dependence. Funny how that works.",
+      "grantsKeywords": ["league", "nobles"]
+    },
+    {
+      "keyword": "yara",
+      "aliases": [],
+      "response": "Yara keeps a stall in the lower quarter that sells 'curiosities.' Officially, I have no relationship with that establishment. Unofficially — tell her Orlan sends his regards and that the blue lamp is lit.",
+      "grantsKeywords": ["lower_quarter", "curiosities"],
+      "setsFlag": "yara_introduced"
+    },
+    {
+      "keyword": "aragon",
+      "aliases": ["planet", "world"],
+      "response": "Aragon is a second-tier colony — never quite important enough to fight over, never obscure enough to be left alone. Which makes it interesting to those of us who know how to read a map. Something is stirring here.",
+      "grantsKeywords": ["stirring", "interesting"]
+    },
+    {
+      "keyword": "bye",
+      "aliases": ["farewell", "goodbye", "leave"],
+      "response": "Safe travels. The League's door is always open — to those who can afford the door.",
+      "endsConversation": true
+    }
+  ]
+}

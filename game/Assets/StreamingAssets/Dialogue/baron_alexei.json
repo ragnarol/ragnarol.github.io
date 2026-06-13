@@ -1,0 +1,73 @@
+{
+  "npcId": "baron_alexei",
+  "greetingDefault": "You come bearing a letter of introduction, I understand. I have seconds. Speak.",
+  "greetingFriendly": "You have proven your worth to this house. Sit. Tell me what you've found.",
+  "greetingHostile": "The audacity of approaching me directly without appointment is... impressive. Briefly.",
+  "farewellDefault": "You are dismissed. Return when you have something worth reporting.",
+  "unknownKeywordResponse": "That is not a matter I address with strangers.",
+  "keywords": [
+    {
+      "keyword": "name",
+      "aliases": [],
+      "response": "Baron Alexei of House Juandaastas — though the title grows heavier each year. Planetary Governor of Aragon by appointment of the Emperor himself, though the Emperor's appointments have grown somewhat... theoretical of late.",
+      "grantsKeywords": ["house", "emperor", "aragon", "governor", "job"]
+    },
+    {
+      "keyword": "job",
+      "aliases": ["govern", "rule", "duty"],
+      "response": "I govern. I arbitrate disputes between the merchant guilds and the Church. I manage the taxation that funds a garrison that is too small for the unrest I anticipate. And I attend an endless sequence of dinners that settle nothing.",
+      "grantsKeywords": ["unrest", "garrison", "church", "guilds", "dinner"]
+    },
+    {
+      "keyword": "house",
+      "aliases": ["noble", "nobles"],
+      "response": "House Juandaastas was granted Aragon three generations ago. We are not the most powerful house in the Known Worlds — but we are here. The other great houses have larger problems to manage. For now.",
+      "grantsKeywords": ["aragon", "houses", "power"]
+    },
+    {
+      "keyword": "unrest",
+      "aliases": ["rebellion", "rebels", "trouble"],
+      "response": "Serfs have been disappearing from the outlying farms. A preacher in the lower quarter claims the suns' fading is the Baron's fault — specifically mine. And someone is distributing pamphlets calling for a 'league of the common-born.' I take these things seriously, which is more than my predecessors can say.",
+      "grantsKeywords": ["serfs", "preacher", "suns", "pamphlets", "lower_quarter"]
+    },
+    {
+      "keyword": "serfs",
+      "aliases": ["missing", "disappearances"],
+      "response": "Seven in the past month. The wilderness party I sent found — nothing. No bodies, no tracks. The Inquisitor thinks it is Antinomist. I think it is something older.",
+      "grantsKeywords": ["inquisitor", "antinomist", "wilderness", "older"]
+    },
+    {
+      "keyword": "suns",
+      "aliases": ["sun", "fading", "stars"],
+      "response": "The suns dim. Every astronomer agrees on the data. None agree on the cause. The Church calls it prophecy. The League calls it a market opportunity. I call it something that will force my hand before I am ready.",
+      "grantsKeywords": ["church", "league", "prophecy", "ready"]
+    },
+    {
+      "keyword": "emperor",
+      "aliases": ["imperium", "throne", "vladimero"],
+      "response": "Emperor Alexius presses for reunification of the noble houses. A noble cause. But here on Aragon, that means my house is asked to bleed for a cause that benefits houses closer to the center. I have written. My letters are politely acknowledged.",
+      "grantsKeywords": ["houses", "alexius", "reunification"]
+    },
+    {
+      "keyword": "seraphina",
+      "aliases": ["lady", "wife"],
+      "response": "Lady Seraphina handles the Palace's interior matters with rather more competence than I handle its exterior ones. She has been... quiet lately. Spending time in the library. I attribute it to stress.",
+      "grantsKeywords": ["library", "quiet", "stress"]
+    },
+    {
+      "keyword": "help",
+      "aliases": ["assist", "serve", "mission"],
+      "response": "If you are truly here to be useful rather than merely ambitious, I have a task. The wilderness disappearances — I need a discreet investigation. Not Harkan's blunt approach. Something quieter. Can you do quiet?",
+      "requiredFlag": "noble_introduced",
+      "setsFlag": "noble_quest_offered",
+      "grantsKeywords": ["wilderness", "disappearances", "discreet"],
+      "completeMilestoneId": "barons_ear"
+    },
+    {
+      "keyword": "bye",
+      "aliases": ["farewell", "goodbye", "leave"],
+      "response": "You are dismissed. Return when you have something worth reporting.",
+      "endsConversation": true
+    }
+  ]
+}
