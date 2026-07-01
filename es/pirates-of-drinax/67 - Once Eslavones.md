@@ -11,10 +11,10 @@
 ### Cabos Sueltos
 *   ¿Quién era la misteriosa figura montada en una bestia que los observaba desde las cumbres nevadas antes de desaparecer?
 *   ¿Qué ocurrió realmente en el campamento del *Gavilán Estelar* para que los equipos de radio fueran destruidos a martillazos y uno de los tripulantes terminara con un piolet clavado en el cerebro?
-*   ¿Qué sustancia líquida radiactiva estuvo manipulando el hombre muerto antes de fallecer, considerando que sus manos presentaban graves quemaduras por radiación?
+*   ¿Qué sustancia radiactiva estuvo manipulando el hombre muerto antes de fallecer, considerando que sus manos presentaban graves quemaduras por radiación?
 
 ### Broma de la Sesión
-La mejor broma surgió cuando debatían cómo escanear la superficie de Ergo sin tener sondas planetarias o drones adecuados. Klaiton sugirió atar a Pika a una cuerda muy larga y colgarlo por debajo de la atmósfera ("bajarlo bajillo") con sensores en las puntas de los dedos y unos "tuppers de cristal" que iría abriendo y cerrando para atrapar muestras de la atmósfera, usándolo como una sonda humana. 
+La mejor broma surgió cuando debatían cómo escanear la superficie de Ergo sin tener sondas planetarias o drones adecuados. Den sugirió atar a Daijiro a una cuerda muy larga y colgarlo por debajo de la atmósfera ("bajarlo bajillo") con sensores en las puntas de los dedos y unos "tuppers de cristal" que iría abriendo y cerrando para atrapar muestras de la atmósfera, usándolo como una sonda humana. 
 
 ---
 
@@ -35,10 +35,10 @@ La sesión comienza con un debate metajuego que se traslada a la narrativa. Den 
 **Lugar(es):** Cinturón de asteroides (Hilfer).
 **Naves mencionadas:** 
 *   Ginger (Carguero de 200 toneladas, Capitana Lyra)
-*   Mercyfish (Nave de 400 toneladas, Capitana Miria Silverhand)
+*   Mercifuge (Nave de 400 toneladas, Capitana Miria Silverhand)
 
 **Resumen de la escena:**
-El *Ginger* localiza al *Mercyfish* desguazando una lanzadera de agua. Lyra abre comunicaciones con la capitana Miria Silverhand, mostrándose relajada pero firme. Lyra le advierte que el planeta Hilfer se está uniendo en su contra y que la infame cazarrecompensas Mari Jagad está en el sistema. Lyra le propone un trato de "pirata a pirata": si Miria abandona el sistema durante unas semanas para dejar que las aguas se calmen, en el futuro compartirán información de rutas de cargueros jugosos (ofreciendo un reparto 60-40, y luego 50-50). Miria se muestra escéptica y exige garantías. Pika interviene utilizando sus dotes diplomáticas y le ofrece un adelanto de 75.000 créditos (aunque debido a una mala tirada, esto le cuesta a Pika gran parte de sus ahorros personales). Miria acepta marcharse y acuerdan volver a contactar en 8 semanas. Tras la marcha de Miria, la tripulación del *Ginger* cobra la recompensa de 50.000 créditos de los Belters locales por haber resuelto el problema.
+El *Ginger* localiza al *Mercifuge* desguazando una lanzadera de agua. Lyra abre comunicaciones con la capitana Miria Silverhand, mostrándose relajada pero firme. Lyra le advierte que el planeta Hilfer se está uniendo en su contra y que la infame cazarrecompensas Mari Jagad está en el sistema. Lyra le propone un trato de "pirata a pirata": si Miria abandona el sistema durante unas semanas para dejar que las aguas se calmen, en el futuro compartirán información de rutas de cargueros jugosos (ofreciendo un reparto 60-40, terminando en una negociacion beneficiosa para Lyra pero que de darse cuenta Miria no le sentara nada bien). Miria se muestra escéptica y exige garantías. Pika interviene utilizando sus dotes diplomáticas y le ofrece un adelanto de 75.000 créditos (aunque debido a una mala tirada, esto le cuesta a Pika gran parte de sus ahorros personales). Miria acepta marcharse y acuerdan volver a contactar en 8 semanas. Tras la marcha de Miria, la tripulación del *Ginger* cobra la recompensa de 50.000 créditos de los Belters locales por haber resuelto el problema.
 
 ## Escena 3: Infiltración en el Mundo Prohibido
 **PCs presentes:** Pika, Lyra, Den, Yaang-ki, Klaiton, Daijiro.
@@ -49,7 +49,7 @@ El *Ginger* localiza al *Mercyfish* desguazando una lanzadera de agua. Lyra abre
 *   Maui (Carguero, Capitán no especificado)
 
 **Resumen de la escena:**
-La tripulación se prepara para viajar a Ergo, un planeta marcado como zona restringida por el Tercer Imperio. Antes de partir, compran un tractor pesado "Hércules" y una grúa de carga que instalan en el *Ginger*. Tras una semana de viaje por el Trojan Reach, llegan al sistema. Esconden el *Maui* cerca de un gigante gaseoso para repostar y el *Ginger* avanza hacia Ergo con los transpondedores apagados. Pika utiliza guerra electrónica para enmascarar su señal y engañar a los satélites imperiales. Pasan varios días escaneando la superficie desde la órbita, descubriendo que Ergo es un mundo vivo con grandes explotaciones agrícolas, pero también con ruinas de ciudades radiactivas. Las coordenadas que Daijiro aportó apuntan a una gigantesca cordillera montañosa similar al Himalaya, rodeada de tormentas perpetuas.
+La tripulación se prepara para viajar a Ergo, un planeta marcado como zona restringida por el Tercer Imperio. Antes de partir, compran un tractor pesado "Hércules". Tras una semana de viaje por el Trojan Reach, llegan al sistema. Esconden el *Maui* cerca de un gigante gaseoso para repostar y el *Ginger* avanza hacia Ergo con los transpondedores apagados. Pika utiliza guerra electrónica para enmascarar su señal y engañar a los satélites imperiales. Pasan varios días escaneando la superficie desde la órbita, descubriendo que Ergo es un mundo vivo con grandes explotaciones agrícolas, pero también con ruinas de ciudades radiactivas. Las coordenadas que Daijiro aportó apuntan a una gigantesca cordillera montañosa similar al Himalaya, rodeada de tormentas perpetuas.
 
 ## Escena 4: La Tempestad y el Gavilán Estelar
 **PCs presentes:** Klaiton, Lyra, Daijiro, Pika, Den, Yaang-ki.
