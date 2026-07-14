@@ -1,5 +1,3 @@
-Here is the session summary following the requested pattern and in Spanish from Spain.
-
 # The Hermit of Cordan and the Breaking of the Siege
 
 **PCs present:** Lyra, Daijiro Yuga (new addition), Corben (Nemo), Pika, Yankee (freed at the end).

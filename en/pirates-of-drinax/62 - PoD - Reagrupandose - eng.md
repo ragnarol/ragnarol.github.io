@@ -1,5 +1,3 @@
-Here is the session summary following the requested pattern and in Spanish from Spain.
-
 # Clear Accounts and Broken Ships
 
 **PCs present:** Honor Boone, Daijiro, Pika, (Nemo's and Nacho's PCs).

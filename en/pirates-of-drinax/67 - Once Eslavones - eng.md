@@ -11,10 +11,10 @@
 ### Loose Ends
 *   Who was the mysterious figure riding a beast that watched them from the snowy peaks before disappearing?
 *   What really happened at the *Stellar Osprey* camp for the radio equipment to be destroyed with hammers and one of the crew members to end up with an ice axe in their brain?
-*   What radioactive liquid substance was the dead man handling before he died, considering his hands showed severe radiation burns?
+*   What radioactive substance was the dead man handling before he died, considering his hands showed severe radiation burns?
 
 ### Session Joke
-The best joke came about when they were debating how to scan the surface of Ergo without having proper planetary probes or drones. Klaiton suggested tying Pika to a very long rope and hanging him below the atmosphere ("lowering him a little") with sensors on his fingertips and some "glass tupperware" that he would open and close to trap atmospheric samples, using him as a human probe.
+The best joke came about when they were debating how to scan the surface of Ergo without having proper planetary probes or drones. Den suggested tying Daijiro to a very long rope and hanging him below the atmosphere ("lowering him a little") with sensors on his fingertips and some "glass tupperware" that he would open and close to trap atmospheric samples, using him as a human probe.
 
 ---
 
@@ -35,10 +35,10 @@ The session begins with a meta-game debate that shifts into the narrative. Den e
 **Location(s):** Asteroid belt (Hilfer).
 **Ships mentioned:**
 *   Ginger (200-ton freighter, Captain Lyra)
-*   Mercyfish (400-ton ship, Captain Miria Silverhand)
+*   Mercifuge (400-ton ship, Captain Miria Silverhand)
 
 **Scene summary:**
-The *Ginger* locates the *Mercyfish* scrapping a water shuttle. Lyra opens communications with Captain Miria Silverhand, appearing relaxed but firm. Lyra warns her that the planet Hilfer is uniting against her and that the infamous bounty hunter Mari Jagad is in the system. Lyra proposes a "pirate to pirate" deal: if Miria leaves the system for a few weeks to let things cool down, they will share information on lucrative freighter routes in the future (offering a 60-40, then 50-50 split). Miria is skeptical and demands guarantees. Pika intervenes using his diplomatic skills and offers an advance of 75,000 credits (though due to a bad roll, this costs Pika a large portion of his personal savings). Miria agrees to leave and they agree to make contact again in 8 weeks. After Miria's departure, the *Ginger*'s crew collects the 50,000 credit bounty from the local Belters for having resolved the problem.
+The *Ginger* locates the *Mercifuge* scrapping a water shuttle. Lyra opens communications with Captain Miria Silverhand, appearing relaxed but firm. Lyra warns her that the planet Hilfer is uniting against her and that the infamous bounty hunter Mari Jagad is in the system. Lyra proposes a "pirate to pirate" deal: if Miria leaves the system for a few weeks to let things cool down, they will share information on lucrative freighter routes in the future (offering a 60-40 split, ending in a negotiation favorable to Lyra which, should Miria ever realize it, would not sit well with her at all). Miria is skeptical and demands guarantees. Pika intervenes using his diplomatic skills and offers an advance of 75,000 credits (though due to a bad roll, this costs Pika a large portion of his personal savings). Miria agrees to leave and they agree to make contact again in 8 weeks. After Miria's departure, the *Ginger*'s crew collects the 50,000 credit bounty from the local Belters for having resolved the problem.
 
 ## Scene 3: Infiltration of the Forbidden World
 **PCs present:** Pika, Lyra, Den, Yaang-ki, Klaiton, Daijiro.
@@ -49,7 +49,7 @@ The *Ginger* locates the *Mercyfish* scrapping a water shuttle. Lyra opens commu
 *   Maui (Freighter, Captain unspecified)
 
 **Scene summary:**
-The crew prepares to travel to Ergo, a planet marked as a restricted zone by the Third Imperium. Before leaving, they buy a heavy "Hercules" tractor and a cargo crane that they install on the *Ginger*. After a week of travel through the Trojan Reach, they arrive in the system. They hide the *Maui* near a gas giant to refuel and the *Ginger* advances toward Ergo with transponders off. Pika uses electronic warfare to mask their signal and deceive the imperial satellites. They spend several days scanning the surface from orbit, discovering that Ergo is a living world with large agricultural operations, but also with ruins of radioactive cities. The coordinates that Daijiro provided point to a gigantic mountain range similar to the Himalayas, surrounded by perpetual storms.
+The crew prepares to travel to Ergo, a planet marked as a restricted zone by the Third Imperium. Before leaving, they buy a heavy "Hercules" tractor. After a week of travel through the Trojan Reach, they arrive in the system. They hide the *Maui* near a gas giant to refuel and the *Ginger* advances toward Ergo with transponders off. Pika uses electronic warfare to mask their signal and deceive the imperial satellites. They spend several days scanning the surface from orbit, discovering that Ergo is a living world with large agricultural operations, but also with ruins of radioactive cities. The coordinates that Daijiro provided point to a gigantic mountain range similar to the Himalayas, surrounded by perpetual storms.
 
 ## Scene 4: The Tempest and the Stellar Osprey
 **PCs present:** Klaiton, Lyra, Daijiro, Pika, Den, Yaang-ki.

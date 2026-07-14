@@ -1,5 +1,3 @@
-Here is the session summary following the requested format and in Spanish from Spain.
-
 # Arde Cordán: Chickens, Fire, and Marquessates
 
 **PCs present:** Lyra, Kleiton, Daijiro. (At the end of the session, they join the rest of the fleet and the PC Nemo appears).
@@ -60,7 +58,7 @@ Once in Elatón, a fortified and tense city, the PCs split up. While Kleiton kee
 **Location:** Cordán (General) and Indus Region.
 
 **Summary:**
-The revolt in Elatón erupts violently. The rebels attempt to blow up the bridge and are brutally repressed (Ramón and Alfredo are hanged), which causes Baron Ferro's troops to cross the border, initiating a war. Just as planned, Baroness Lux intervenes with peacekeeping forces and humanitarian aid, forcing the other barons to negotiate. Elatón comes under Lux's protection. As payment, Lux grants the PCs the title of Marquises of Indus and some land. Karim manages to recover Goran's bones, which are buried in the new marquessate along with a rat he shot for being on top of the remains.
+The revolt in Elatón erupts violently. The rebels attempt to blow up the bridge and are brutally repressed (Ramón and Alfredo are hanged), which causes Baron Ferro's troops to cross the border, initiating a war. Just as planned, Baroness Lux intervenes with peacekeeping forces and humanitarian aid, forcing the other barons to negotiate. Elatón comes under Lux's protection. As payment, Lux grants the PCs the title of Marquises of Indus and some land. Karim manages to recover Goran's bones, which are buried in the new marquessate along with a rat she shot for being on top of the remains.
 
 ---
 
@@ -71,4 +69,4 @@ The revolt in Elatón erupts violently. The rebels attempt to blow up the bridge
 **Ships:** The Ginger (Cargo ship), Drinax/Byrni Fleet.
 
 **Summary:**
-The group leaves Cordán and travels to the Clarke system. There they reunite with the rest of the crew and the Byrni fleet, which has broken the blockade and cleared the area of "Yachties" pirates. They catch up, account for the weeks of training, and prepare for the next steps of the campaign, with the allied fleet partially returning to Byrni but leaving an invitation for King Oleb.
+The group leaves Cordán and travels to the Clarke system. There they reunite with the rest of the crew and the Byrni fleet, which has broken the blockade and cleared the area of "Yatei" pirates. They catch up, account for the weeks of training, and prepare for the next steps of the campaign, with the allied fleet partially returning to Byrni but leaving an invitation for King Oleb.

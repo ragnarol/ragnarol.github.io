@@ -1,5 +1,3 @@
-Here is the translation of the text into English:
-
 Here is the session summary structured according to your instructions, written in Peninsular Spanish (which has been translated to English) and using only the information provided in the transcript.
 
 # Session Summary: Hilfer’s Bait and the Hunt for Miria
@@ -8,13 +6,13 @@ Here is the session summary structured according to your instructions, written i
 **NPCs present/mentioned:** Nicolás Alexander, Miria Silverhand, King Oleb XVI, Krrsh, Ferrik Redthane, Rufinus Aylil.
 
 **Main campaign developments:** 
-The crew has decided to act as benefactors and unofficial representatives of King Oleb XVI to win the loyalty and favor of the *belters* of the Hilfer system. By planning to end the threat posed by the pirate Miria Silverhand, they seek not only to improve the reputation of the Kingdom of Drinax and stabilize the local water economy, but also to seize the *Mercy Future*, a valuable ship owned by the Third Imperium.
+The crew has decided to act as benefactors and unofficial representatives of King Oleb XVI to win the loyalty and favor of the *belters* of the Hilfer system. By planning to end the threat posed by the pirate Miria Silverhand, they seek not only to improve the reputation of the Kingdom of Drinax and stabilize the local water economy, but also to seize the *Mercyfuge*, a valuable ship owned by the Third Imperium.
 
 **Loose ends:**
 *   The imminent combat or negotiation with Miria Silverhand in the space junkyard.
 *   The rescue of the crew members left behind on the asteroid as bait.
 *   The pending expedition to the Ergo system to search for a lost ship.
-*   Rumors regarding the whereabouts of the ship *Águila del Sol* (similar to the *Banshee*), which remains lost in space.
+*   Rumors regarding the whereabouts of the ship *Águila del Nom* (similar to the *Banshee*), which remains lost in space.
 
 **Session joke:**
 The most fun moment at a meta-game level occurred when the game had to be briefly paused due to the crying of the GM's (Juan) young daughter. He explained that her pacifier had just been taken away and that the girl had a "broken heart." The table joked that this was nothing compared to the heartache she would give him when she started getting a boyfriend (or girlfriend). In addition, Nemo’s grand entrance arriving late and justifying it by saying "that lady ate tongue" generated quite a few laughs before they got tactical with the missiles.
@@ -57,19 +55,19 @@ Lyra contacts Nicolás Alexander and, through him, accesses a secure forum where
 **Location(s):** Asteroid belt and deep space (Hilfer).
 **Ships mentioned:** 
 * Belter Shuttle (20t Launch, Unknown Captain)
-* Mercy Future (Salvage Hauler / 400t Imperial, Captain Miria Silverhand)
+* Mercyfuge (Salvage Hauler / 400t Imperial, Captain Miria Silverhand)
 
 **Scene summary:**
-Pika spends a day of work hacking the *belter* shuttle’s old operating system to install a hidden tracker (bug). They execute the plan: Den (disguised as a *belter*) and Yaang-ki fly the shuttle into the pirate’s hunting ground. Miria Silverhand takes the bait; she appears with the mammoth *Mercy Future*, fires a warning shot, and orders them to abandon the ship. Den and Yaang-ki are left stranded on an asteroid while Miria grabs the shuttle with her ship’s claw and carries it away. Thanks to Pika’s expertise, Miria does not detect the tracker in her communications.
+Pika spends a day of work hacking the *belter* shuttle’s old operating system to install a hidden tracker (bug). They execute the plan: Den (disguised as a *belter*) and Yaang-ki fly the shuttle into the pirate’s hunting ground. Miria Silverhand takes the bait; she appears with the mammoth *Mercyfuge*, fires a warning shot, and orders them to abandon the ship. Den and Yaang-ki are left stranded on an asteroid while Miria grabs the shuttle with her ship’s claw and carries it away. Thanks to Pika’s expertise, Miria does not detect the tracker in her communications.
 
 ### Scene 5: The Junkyard Hideout
 **PCs present:** Lyra, Pika, Den, Klaiton.
 **NPCs present:** Miria Silverhand (Mentioned).
 **Location(s):** Dark side of a moon (Hilfer).
 **Ships mentioned:** 
-* Mercy Future (Salvage Hauler / 400t Imperial, Captain Miria Silverhand)
+* Mercyfuge (Salvage Hauler / 400t Imperial, Captain Miria Silverhand)
 * Ginger (Unknown, Captain Lyra)
 * Maui (300t Freighter, Captain Den)
 
 **Scene summary:**
-To avoid being detected, Klaiton pilots the *Ginger* using a gravity catapult, approaching in total silence (systems off) toward the tracker’s signal. After rounding the dark side of a moon, they discover the *Mercy Future* floating in the void, surrounded by a sea of space junk and the remains of gutted ships. They watch as the pirate ship dismantles the decoy shuttle. Den, commanding the *Maui*, begins his approach after picking up the crew members from the asteroid. The session ends with the crew frantically debating their next move: using the element of surprise to fry Miria with missiles, attempting a suicide boarding in combat suits, or contacting her to try to intimidate her and force her to surrender.
+To avoid being detected, Klaiton pilots the *Ginger* using a gravity catapult, approaching in total silence (systems off) toward the tracker’s signal. After rounding the dark side of a moon, they discover the *Mercyfuge* floating in the void, surrounded by a sea of space junk and the remains of gutted ships. They watch as the pirate ship dismantles the decoy shuttle. Den, commanding the *Maui*, begins his approach after picking up the crew members from the asteroid. The session ends with the crew frantically debating their next move: using the element of surprise to fry Miria with missiles, attempting a suicide boarding in combat suits, or contacting her to try to intimidate her and force her to surrender.
