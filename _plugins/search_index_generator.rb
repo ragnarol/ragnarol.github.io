@@ -39,7 +39,7 @@ module Jekyll
         title = clean_title(title)
 
         # Read and clean the content
-        content = site.read_content(page.path)
+        content = File.read(File.join(site.source, page.path))
         content = strip_html_and_symbols(content)
 
         # Extract campaign name from path
@@ -50,7 +50,8 @@ module Jekyll
           'title' => title,
           'url' => page.url,
           'content' => content,
-          'campaign' => campaign
+          'campaign' => campaign,
+          'snippet' => content[0..300]
         }
       end
 
@@ -78,12 +79,12 @@ module Jekyll
 
     def strip_html_and_symbols(content)
       # Strip markdown formatting symbols but keep text content
-      content = content.gsub(/#{4,}/, '')     # code blocks
+      content = content.gsub(/\#{4,}/, '')     # code blocks (fences)
       content = content.gsub(/`/, '')          # inline code
       content = content.gsub(/\*\*(.*?)\*\*/, '\1')  # bold
       content = content.gsub(/\*(.*?)\*/, '\1')    # italic
       content = content.gsub(/---+/, '')        # horizontal rules
-      content = content.gsub(/#{1,6}\s+/, '')   # headers
+      content = content.gsub(/\#{1,6}\s+/, '')   # headers
       content = content.gsub(/^\s*[-*+]\s+/, '') # list items
       content = content.gsub(/\n+/, ' ')        # newlines to spaces
       content.strip
