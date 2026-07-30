@@ -5,14 +5,16 @@ kramdown:
 exclude: [source, README.md, CNAME, Gemfile, Gemfile.lock]
 langs: [en, es]
 
-plugins:
-  - jekyll-relative-links
 
 defaults:
   - scope:
       path: ""
     values:
       layout: default
+  - scope:
+      path: "*/search.json"
+    values:
+      layout: false
   - scope:
       path: "es"
     values:
