@@ -14,15 +14,32 @@ echo "Creating bilingual Jekyll site..."
 
 mkdir -p "$SITE_DIR/_layouts"
 mkdir -p "$SITE_DIR/assets"
+mkdir -p "$SITE_DIR/assets/js"
+mkdir -p "$SITE_DIR/assets/themes"
+mkdir -p "$SITE_DIR/_plugins"
 mkdir -p "$SITE_DIR/es"
+# Copy themes and plugins
+if [[ -f "./assets/themes/sci-fi.css" ]]; then
+  cp "./assets/themes/sci-fi.css" "$SITE_DIR/assets/themes/"
+  cp "./assets/themes/gothic.css" "$SITE_DIR/assets/themes/"
+fi
+if [[ -f "./_plugins/search_index_generator.rb" ]]; then
+  cp "./_plugins/search_index_generator.rb" "$SITE_DIR/_plugins/"
+fi
+
 mkdir -p "$SITE_DIR/en"
 
 # -------------------------------------------------
 # Jekyll config
 # -------------------------------------------------
 cat > "$SITE_DIR/_config.yml" <<'EOF'
-title: Piratas de Drinax
+title: RPG Campaign Summaries
 markdown: kramdown
+kramdown:
+  hard_wrap: true
+langs: [en, es]
+plugins:
+  - jekyll-relative-links
 collections:
   es:
     output: true
@@ -30,10 +47,206 @@ collections:
   en:
     output: true
     permalink: /en/:name/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "es"
+    values:
+      lang: es
+  - scope:
+      path: "en"
+    values:
+      lang: en
+  - scope:
+      path: "es/pirates-of-drinax"
+    values:
+      theme: sci-fi
+  - scope:
+      path: "en/pirates-of-drinax"
+    values:
+      theme: sci-fi
+  - scope:
+      path: "es/ravenloft"
+    values:
+      theme: gothic
+  - scope:
+      path: "en/ravenloft"
+    values:
+      theme: gothic
 EOF
 
 # -------------------------------------------------
-# GitHub-like CSS with language toggle
+# Search styles
+# -------------------------------------------------
+cat > "$SITE_DIR/assets/js/search.js" <<'JSEOF'
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('search-input');
+  const searchResults = document.getElementById('search-results');
+  const searchNoResults = document.getElementById('search-no-results');
+
+  if (!searchInput || !searchResults) return;
+
+  let searchIndex = [];
+  let currentIndex = -1;
+
+  const currentLang = document.documentElement.lang || 'es';
+
+  fetch(`/${currentLang}/search.json`)
+    .then(response => response.json())
+    .then(data => {
+      searchIndex = data;
+    })
+    .catch(err => {
+      console.error('Failed to load search index:', err);
+    });
+
+  function highlightText(text, query) {
+    if (!query) return escapeHtml(text);
+    const escaped = escapeHtml(text);
+    const regex = new RegExp(`(${escapeRegex(query)})`, 'gi');
+    return escaped.replace(regex, '<mark class="search-highlight">$1</mark>');
+  }
+
+  function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+  }
+
+  function escapeRegex(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function performSearch(query) {
+    if (!query || query.length < 2) {
+      searchResults.innerHTML = '';
+      searchResults.style.display = 'none';
+      searchNoResults.style.display = 'none';
+      return;
+    }
+
+    const lowerQuery = query.toLowerCase();
+    const results = searchIndex.filter(page => {
+      const titleLower = page.title.toLowerCase();
+      const contentLower = page.content.toLowerCase();
+      return titleLower.includes(lowerQuery) || contentLower.includes(lowerQuery);
+    });
+
+    renderResults(results, query);
+  }
+
+  function renderResults(results, query) {
+    searchResults.innerHTML = '';
+
+    if (results.length === 0) {
+      searchResults.style.display = 'none';
+      searchNoResults.style.display = 'block';
+      searchNoResults.textContent = `No results found for "${escapeHtml(query)}"`;
+      return;
+    }
+
+    searchNoResults.style.display = 'none';
+
+    const limitedResults = results.slice(0, 10);
+
+    const grouped = {};
+    limitedResults.forEach(page => {
+      if (!grouped[page.campaign]) {
+        grouped[page.campaign] = [];
+      }
+      grouped[page.campaign].push(page);
+    });
+
+    for (const campaign in grouped) {
+      const campaignDiv = document.createElement('div');
+      campaignDiv.className = 'search-campaign';
+
+      const campaignTitle = document.createElement('div');
+      campaignTitle.className = 'search-campaign-title';
+      campaignTitle.textContent = campaign.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+      campaignDiv.appendChild(campaignTitle);
+
+      const ul = document.createElement('ul');
+      grouped[campaign].forEach(page => {
+        const li = document.createElement('li');
+
+        const link = document.createElement('a');
+        link.href = page.url;
+        link.innerHTML = `<span class="search-title">${highlightText(page.title, query)}</span>`;
+
+        if (page.snippet) {
+          const snippet = document.createElement('div');
+          snippet.className = 'search-snippet';
+          snippet.innerHTML = '...' + highlightText(page.snippet, query) + '...';
+          link.appendChild(snippet);
+        }
+
+        li.appendChild(link);
+        ul.appendChild(li);
+      });
+
+      campaignDiv.appendChild(ul);
+      searchResults.appendChild(campaignDiv);
+    }
+
+    searchResults.style.display = 'block';
+  }
+
+  let debounceTimer;
+  searchInput.addEventListener('input', function() {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => {
+      performSearch(this.value.trim());
+    }, 200);
+  });
+
+  searchInput.addEventListener('keydown', function(e) {
+    const items = searchResults.querySelectorAll('a');
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      currentIndex = Math.min(currentIndex + 1, items.length - 1);
+      updateActiveItem(items);
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      currentIndex = Math.max(currentIndex - 1, 0);
+      updateActiveItem(items);
+    } else if (e.key === 'Escape') {
+      searchResults.style.display = 'none';
+      searchInput.blur();
+    }
+  });
+
+  function updateActiveItem(items) {
+    items.forEach((item, i) => {
+      item.classList.toggle('search-active', i === currentIndex);
+    });
+    if (items[currentIndex]) {
+      items[currentIndex].scrollIntoView({ block: 'nearest' });
+    }
+  }
+
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.search-container')) {
+      searchResults.style.display = 'none';
+      searchNoResults.style.display = 'none';
+    }
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+      e.preventDefault();
+      searchInput.focus();
+      searchInput.select();
+    }
+  });
+});
+JSEOF
+
+# -------------------------------------------------
+# Main CSS
 # -------------------------------------------------
 cat > "$SITE_DIR/assets/style.css" <<'EOF'
 :root {
@@ -118,6 +331,129 @@ a:hover {
   margin: 0.4rem 0;
 }
 
+/* Search Styles */
+.search-container {
+  position: relative;
+  margin: 0.75rem 0;
+}
+
+#search-input {
+  width: 100%;
+  padding: 0.5rem 0.75rem 0.5rem 2rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  background: var(--bg);
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#search-input:focus {
+  border-color: var(--link);
+  box-shadow: 0 0 0 2px rgba(9, 105, 218, 0.1);
+}
+
+.search-container::before {
+  content: '\1F50D';
+  position: absolute;
+  left: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.85rem;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+#search-results {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  max-height: 400px;
+  overflow-y: auto;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-top: 0.25rem;
+}
+
+.search-campaign {
+  padding: 0.25rem 0;
+}
+
+.search-campaign + .search-campaign {
+  border-top: 1px solid var(--border);
+}
+
+.search-campaign-title {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text);
+  opacity: 0.6;
+  background: var(--sidebar-bg);
+  border-radius: 4px 4px 0 0;
+}
+
+#search-results ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#search-results li {
+  margin: 0;
+}
+
+#search-results a {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+  color: var(--link);
+  border-left: none;
+}
+
+#search-results a:hover,
+#search-results a.search-active {
+  background: var(--sidebar-bg);
+  color: var(--link);
+}
+
+.search-title {
+  font-weight: 600;
+  display: block;
+}
+
+.search-snippet {
+  font-size: 0.8rem;
+  color: var(--text);
+  opacity: 0.7;
+  margin-top: 0.15rem;
+  display: block;
+  line-height: 1.3;
+}
+
+.search-no-results {
+  padding: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--text);
+  opacity: 0.6;
+  text-align: center;
+  display: none;
+}
+
+.search-highlight {
+  background: rgba(255, 230, 0, 0.3);
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
 .content {
   flex: 1;
   padding: 2rem;
@@ -166,6 +502,10 @@ cat > "$SITE_DIR/_layouts/default.html" <<'EOF'
   <title>{{ page.title }} — {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  {% if page.theme %}
+  <link rel="stylesheet" href="{{ '/assets/themes/' | append: page.theme | append: '.css' | relative_url }}">
+  {% endif %}
+  <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
 </head>
 <body>
   <div class="lang-toggle">
@@ -176,26 +516,58 @@ cat > "$SITE_DIR/_layouts/default.html" <<'EOF'
 
   <div class="layout">
     <nav class="sidebar">
-      <h2>{{ site.title }}</h2>
-      <ul>
-        {% if page.lang == 'en' %}
-          {% assign pages = site.pages | where: "lang", "en" %}
-        {% elsif page.lang == 'es' %}
-          {% assign pages = site.pages | where: "lang", "es" %}
-        {% else %}
-          {% assign pages = site.pages | where: "lang", "es" %}
+      <h2><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h2>
+
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search pages..." autocomplete="off">
+        <div id="search-results"></div>
+        <div id="search-no-results" class="search-no-results"></div>
+      </div>
+
+      {% assign current_lang = page.lang | default: 'es' %}
+      {% assign lang_pages = site.pages | where: "lang", current_lang | sort: "path" %}
+
+      {% assign current_path_parts = page.path | split: "/" %}
+      {% assign current_campaign = "" %}
+      {% if current_path_parts.size > 2 %}
+        {% assign current_campaign = current_path_parts[1] %}
+      {% endif %}
+
+      {% assign campaign_list = "" | split: "" %}
+      {% for p in lang_pages %}
+        {% assign p_parts = p.path | split: "/" %}
+        {% if p_parts.size > 2 %}
+          {% assign c_id = p_parts[1] %}
+          {% unless campaign_list contains c_id %}
+            {% assign campaign_list = campaign_list | push: c_id %}
+          {% endunless %}
         {% endif %}
-        
-        {% for p in pages %}
-          {% if p.title %}
-          <li>
-            <a href="{{ p.url | relative_url }}">
-              {{ p.title }}
-            </a>
-          </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
+      {% endfor %}
+
+      {% for c_id in campaign_list %}
+        {% assign is_current = false %}
+        {% if c_id == current_campaign %}
+          {% assign is_current = true %}
+        {% endif %}
+
+        <details {% if is_current %}open{% endif %}>
+          <summary><strong>{{ c_id | replace: "-", " " | capitalize }}</strong></summary>
+          <ul>
+            {% for p in lang_pages %}
+              {% assign p_parts = p.path | split: "/" %}
+              {% if p_parts[1] == c_id %}
+                {% if p.name != "index.md" %}
+                <li>
+                  <a href="{{ p.url | relative_url }}" {% if p.url == page.url %}class="active-link"{% endif %}>
+                    {{ p.name | replace: '.md','', replace: ' - eng', '' | replace: ' - summary', '' | replace: '- eng', '' | replace: '- summary', '' | replace: '-', ' ' | replace: '_', ' ' | replace: '  ', ' ' }}
+                  </a>
+                </li>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </details>
+      {% endfor %}
     </nav>
 
     <main class="content">
@@ -330,6 +702,84 @@ Selecciona tu idioma usando los botones en la parte superior:
 - [Español](/es/)
 - [English](/en/)
 EOF
+
+# -------------------------------------------------
+# Generate search index JSON files for client-side search
+# -------------------------------------------------
+generate_search_index() {
+  local lang=$1
+  local src_dir=$2
+  local out_dir=$SITE_DIR/$lang
+  local first=true
+
+  echo "[{" > "$out_dir/search.json.tmp"
+
+  for file in "$src_dir"/**/*.md; do
+    [[ -e "$file" ]] || continue
+    
+    # Skip index.md files
+    local basename
+    basename=$(basename "$file")
+    [[ "$basename" == "index.md" ]] && continue
+
+    # Extract title from frontmatter or filename
+    local title
+    if head -n 5 "$file" | grep -q '^title:'; then
+      title=$(head -n 5 "$file" | grep '^title:' | sed 's/^title: *//' | sed 's/^"//;s/"$//')
+    else
+      title=$(basename "$file" .md | sed 's/-/ /g; s/_/ /g; s/\b\(.*\)/\u\1/g')
+    fi
+
+    # Extract campaign from path
+    local campaign
+    campaign=$(echo "$file" | sed "s|$src_dir/||" | cut -d'/' -f1)
+
+    # Clean content: strip markdown, join lines
+    local content
+    content=$(cat "$file" | \
+      sed '/^---$/d' | \
+      sed 's/^#{1,6}[[:space:]]*//' | \
+      sed 's/^\*\*\(.*\)\*\*/\1/g' | \
+      sed 's/^\*\(.*\)\*/\1/g' | \
+      sed 's/^---*$//' | \
+      sed 's/^[-*+][[:space:]]//' | \
+      tr '\n' ' ' | \
+      sed 's/  */ /g; s/^ *//; s/ *$//')
+
+    # Escape JSON strings
+    title=$(echo "$title" | sed 's/\\/\\\\/g; s/"/\\"/g')
+    content=$(echo "$content" | sed 's/\\/\\\\/g; s/"/\\"/g')
+
+    if [ "$first" = true ]; then
+      first=false
+    else
+      echo "," >> "$out_dir/search.json.tmp"
+    fi
+
+    # Add to index
+    cat >> "$out_dir/search.json.tmp" <<JSONEOF
+  {
+    "title": "$title",
+    "url": "/$lang/$campaign/$basename",
+    "content": "$content",
+    "campaign": "$campaign"
+  }
+JSONEOF
+  done
+
+  echo "}]" >> "$out_dir/search.json.tmp"
+  mv "$out_dir/search.json.tmp" "$out_dir/search.json"
+}
+
+if [[ -d "$SRC_DIR_ES" ]]; then
+  generate_search_index "es" "$SRC_DIR_ES"
+  echo "✓ Generated Spanish search index"
+fi
+
+if [[ -d "$SRC_DIR_EN" ]]; then
+  generate_search_index "en" "$SRC_DIR_EN"
+  echo "✓ Generated English search index"
+fi
 
 echo "✓ Site built successfully!"
 echo "  Spanish files: $SITE_DIR/es/"

@@ -3,6 +3,10 @@ markdown: kramdown
 kramdown:
   hard_wrap: true
 exclude: [build_site.sh, source, README.md, CNAME]
+langs: [en, es]
+
+plugins:
+  - jekyll-relative-links
 
 defaults:
   - scope:

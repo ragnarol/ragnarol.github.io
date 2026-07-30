@@ -8,6 +8,7 @@
   {% if page.theme %}
   <link rel="stylesheet" href="{{ '/assets/themes/' | append: page.theme | append: '.css' | relative_url }}">
   {% endif %}
+  <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
 </head>
 <body>
   <div class="lang-toggle">
@@ -19,6 +20,12 @@
   <div class="layout">
     <nav class="sidebar">
       <h2><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h2>
+
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search pages..." autocomplete="off">
+        <div id="search-results"></div>
+        <div id="search-no-results" class="search-no-results"></div>
+      </div>
       
       {% assign current_lang = page.lang | default: 'es' %}
       {% assign lang_pages = site.pages | where: "lang", current_lang | sort: "path" %}
